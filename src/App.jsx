@@ -48,7 +48,29 @@ export default function App() {
     return sorted.filter((entry) => !(entry.month === 2 && entry.day === 29));
   }, [currentYear]);
 
-  const todayIndex = useMemo(() => getInitialIndex(entries, now), [entries]);
+  // 🔥 URL DATE LOGIC
+  const getDateFromUrl = () => {
+    const params = new URLSearchParams(window.location.search);
+    const d = params.get("date");
+    if (!d) return null;
+
+    const [day, month] = d.split("-").map(Number);
+    return { day, month };
+  };
+
+  const todayIndex = useMemo(() => {
+    const urlDate = getDateFromUrl();
+
+    if (urlDate) {
+      const i = entries.findIndex(
+        (e) => e.day === urlDate.day && e.month === urlDate.month
+      );
+      if (i !== -1) return i;
+    }
+
+    return getInitialIndex(entries, now);
+  }, [entries]);
+
   const [currentIndex, setCurrentIndex] = useState(todayIndex);
 
   const entry = entries[currentIndex];
@@ -220,21 +242,11 @@ export default function App() {
             </div>
 
             <div style={{ display: "flex", gap: "14px", flexWrap: "wrap" }}>
-              <a
-                href={entry.playUrl}
-                target="_blank"
-                rel="noreferrer"
-                style={playButtonStyle}
-              >
+              <a href={entry.playUrl} target="_blank" rel="noreferrer" style={playButtonStyle}>
                 Play
               </a>
 
-              <a
-                href={entry.buyUrl}
-                target="_blank"
-                rel="noreferrer"
-                style={buyButtonStyle}
-              >
+              <a href={entry.buyUrl} target="_blank" rel="noreferrer" style={buyButtonStyle}>
                 Buy
               </a>
             </div>
@@ -316,13 +328,7 @@ export default function App() {
               </div>
             </div>
 
-            <div
-              style={{
-                marginTop: "16px",
-                fontSize: "14px",
-                opacity: 0.72,
-              }}
-            >
+            <div style={{ marginTop: "16px", fontSize: "14px", opacity: 0.72 }}>
               Eintrag {currentIndex + 1} von {entries.length}
             </div>
           </div>

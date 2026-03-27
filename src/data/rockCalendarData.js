@@ -12,7 +12,7 @@ export default [
       "Like Dreamers Do",
       "Hello Little Girl"
     ],
-    "cover": "/covers/the-beatles-decca-audition.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Beatles",
     "buyUrl": "https://www.amazon.de/s?k=Beatles+early+recordings"
   },
@@ -29,7 +29,7 @@ export default [
       "Riders on the Storm",
       "Love Her Madly"
     ],
-    "cover": "/covers/the-doors-l-a-woman-sessions.jpg",
+    "cover": "/covers/the-doors-jim-morrison-death.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Doors",
     "buyUrl": "https://www.amazon.de/s?k=The+Doors+LA+Woman+vinyl"
   },
@@ -46,7 +46,7 @@ export default [
       "Good Times Bad Times",
       "Dazed and Confused"
     ],
-    "cover": "/covers/led-zeppelin-led-zeppelin.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Led%20Zeppelin%20Led%20Zeppelin",
     "buyUrl": "https://www.amazon.de/s?k=Led+Zeppelin+vinyl"
   },
@@ -62,7 +62,7 @@ export default [
     "songs": [
       "Come On"
     ],
-    "cover": "/covers/the-rolling-stones-first-recording.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Rolling%20Stones",
     "buyUrl": "https://www.amazon.de/s?k=Rolling+Stones+vinyl"
   },
@@ -78,7 +78,7 @@ export default [
     "songs": [
       "Blinded by the Light"
     ],
-    "cover": "/covers/bruce-springsteen-debut-album-release.jpg",
+    "cover": "/covers/bruce-springsteen-born-in-the-u-s-a-.jpg",
     "playUrl": "https://open.spotify.com/search/Bruce%20Springsteen%20Greetings%20from%20Asbury%20Park",
     "buyUrl": "https://www.amazon.de/s?k=Springsteen+Greetings+vinyl"
   },
@@ -95,7 +95,7 @@ export default [
       "Kashmir",
       "Trampled Under Foot"
     ],
-    "cover": "/covers/led-zeppelin-physical-graffiti.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Physical%20Graffiti%20Led%20Zeppelin",
     "buyUrl": "https://www.amazon.de/s?k=Physical+Graffiti+vinyl"
   },
@@ -111,7 +111,7 @@ export default [
     "songs": [
       "Atom Heart Mother Suite"
     ],
-    "cover": "/covers/pink-floyd-atom-heart-mother-era.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/Pink%20Floyd%20Atom%20Heart%20Mother",
     "buyUrl": "https://www.amazon.de/s?k=Atom+Heart+Mother+vinyl"
   },
@@ -128,7 +128,7 @@ export default [
       "Heroes",
       "Starman"
     ],
-    "cover": "/covers/david-bowie-birthday.jpg",
+    "cover": "/covers/david-bowie-aladdin-sane-era.jpg",
     "playUrl": "https://open.spotify.com/search/David%20Bowie",
     "buyUrl": "https://www.amazon.de/s?k=David+Bowie+vinyl"
   },
@@ -160,7 +160,7 @@ export default [
     "songs": [
       "Ruby Tuesday"
     ],
-    "cover": "/covers/the-rolling-stones-between-the-buttons.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Between%20the%20Buttons%20Rolling%20Stones",
     "buyUrl": "https://www.amazon.de/s?k=Rolling+Stones+Buttons+vinyl"
   },
@@ -192,7 +192,7 @@ export default [
     "songs": [
       "Communication Breakdown"
     ],
-    "cover": "/covers/led-zeppelin-first-uk-tour.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Led%20Zeppelin",
     "buyUrl": "https://www.amazon.de/s?k=Led+Zeppelin+vinyl"
   },
@@ -225,7 +225,7 @@ export default [
       "Time",
       "Money"
     ],
-    "cover": "/covers/pink-floyd-the-dark-side-of-the-moon-preview.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/Dark%20Side%20of%20the%20Moon",
     "buyUrl": "https://www.amazon.de/Dark-Side-Moon-Vinyl-LP/dp/B01LTHN0DG"
   },
@@ -241,7 +241,7 @@ export default [
     "songs": [
       "Time"
     ],
-    "cover": "/covers/pink-floyd-dark-side-sessions.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/Dark%20Side%20of%20the%20Moon",
     "buyUrl": "https://www.amazon.de/s?k=Pink+Floyd+Dark+Side+vinyl"
   },
@@ -273,7 +273,7 @@ export default [
     "songs": [
       "Get Back"
     ],
-    "cover": "/covers/the-beatles-final-sessions.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Beatles",
     "buyUrl": "https://www.amazon.de/s?k=Let+It+Be+vinyl"
   },
@@ -321,7 +321,7 @@ export default [
     "songs": [
       "All Together Now"
     ],
-    "cover": "/covers/the-beatles-yellow-submarine-sessions.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/Yellow%20Submarine%20Beatles",
     "buyUrl": "https://www.amazon.de/s?k=Beatles+Yellow+Submarine+vinyl"
   },
@@ -337,7 +337,7 @@ export default [
     "songs": [
       "Bat Out of Hell"
     ],
-    "cover": "/covers/meat-loaf-death.jpg",
+    "cover": "/covers/meat-loaf-bat-out-of-hell-release.jpg",
     "playUrl": "https://open.spotify.com/search/Meat%20Loaf",
     "buyUrl": "https://www.amazon.de/s?k=Meat+Loaf+vinyl"
   },
@@ -369,7 +369,7 @@ export default [
     "songs": [
       "Mr. Blue Sky"
     ],
-    "cover": "/covers/electric-light-orchestra-tour.jpg",
+    "cover": "/covers/electric-light-orchestra-elo-rise.jpg",
     "playUrl": "https://open.spotify.com/search/Electric%20Light%20Orchestra",
     "buyUrl": "https://www.amazon.de/s?k=ELO+vinyl"
   },
@@ -401,7 +401,7 @@ export default [
     "songs": [
       "Hells Bells"
     ],
-    "cover": "/covers/ac-dc-back-in-black-writing.jpg",
+    "cover": "/covers/ac-dc-back-in-black-build-up.jpg",
     "playUrl": "https://open.spotify.com/search/Back%20in%20Black%20ACDC",
     "buyUrl": "https://www.amazon.de/s?k=Back+in+Black+vinyl"
   },
@@ -417,7 +417,7 @@ export default [
     "songs": [
       "Dreams"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-release-prep.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Rumours%20Fleetwood%20Mac",
     "buyUrl": "https://www.amazon.de/s?k=Rumours+vinyl"
   },
@@ -433,7 +433,7 @@ export default [
     "songs": [
       "Echoes"
     ],
-    "cover": "/covers/pink-floyd-live-era.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/Pink%20Floyd",
     "buyUrl": "https://www.amazon.de/s?k=Pink+Floyd+vinyl"
   },
@@ -465,7 +465,7 @@ export default [
     "songs": [
       "The Chain"
     ],
-    "cover": "/covers/fleetwood-mac-rumours.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Rumours%20Fleetwood%20Mac",
     "buyUrl": "https://www.amazon.de/s?k=Rumours+vinyl"
   },
@@ -481,7 +481,7 @@ export default [
     "songs": [
       "Get Back"
     ],
-    "cover": "/covers/the-beatles-rooftop-concert.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Beatles",
     "buyUrl": "https://www.amazon.de/s?k=Let+It+Be+vinyl"
   },
@@ -497,7 +497,7 @@ export default [
     "songs": [
       "Lucy in the Sky with Diamonds"
     ],
-    "cover": "/covers/the-beatles-sgt-pepper-sessions.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/Sgt%20Pepper%20Beatles",
     "buyUrl": "https://www.amazon.de/s?k=Sgt+Pepper+vinyl"
   },
@@ -513,7 +513,7 @@ export default [
     "songs": [
       "Starman"
     ],
-    "cover": "/covers/david-bowie-ziggy-era.jpg",
+    "cover": "/covers/david-bowie-aladdin-sane-era.jpg",
     "playUrl": "https://open.spotify.com/search/David%20Bowie",
     "buyUrl": "https://www.amazon.de/s?k=David+Bowie+vinyl"
   },
@@ -529,7 +529,7 @@ export default [
     "songs": [
       "Dreams"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-success.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Rumours%20Fleetwood%20Mac",
     "buyUrl": "https://www.amazon.de/s?k=Rumours+vinyl"
   },
@@ -561,7 +561,7 @@ export default [
     "songs": [
       "Go Your Own Way"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-charts.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Rumours%20Fleetwood%20Mac",
     "buyUrl": "https://www.amazon.de/s?k=Rumours+vinyl"
   },
@@ -577,7 +577,7 @@ export default [
     "songs": [
       "Paranoid"
     ],
-    "cover": "/covers/black-sabbath-paranoid-success.jpg",
+    "cover": "/covers/black-sabbath-black-sabbath.jpg",
     "playUrl": "https://open.spotify.com/search/Black%20Sabbath%20Paranoid",
     "buyUrl": "https://www.amazon.de/s?k=Black+Sabbath+Paranoid+vinyl"
   },
@@ -609,7 +609,7 @@ export default [
     "songs": [
       "I Want to Hold Your Hand"
     ],
-    "cover": "/covers/the-beatles-us-arrival.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Beatles",
     "buyUrl": "https://www.amazon.de/s?k=Beatles+vinyl"
   },
@@ -625,7 +625,7 @@ export default [
     "songs": [
       "Child in Time"
     ],
-    "cover": "/covers/deep-purple-live-era.jpg",
+    "cover": "/covers/deep-purple-in-rock-impact.jpg",
     "playUrl": "https://open.spotify.com/search/Deep%20Purple",
     "buyUrl": "https://www.amazon.de/s?k=Deep+Purple+vinyl"
   },
@@ -641,7 +641,7 @@ export default [
     "songs": [
       "All My Loving"
     ],
-    "cover": "/covers/the-beatles-ed-sullivan-show.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Beatles",
     "buyUrl": "https://www.amazon.de/s?k=Beatles+vinyl"
   },
@@ -657,7 +657,7 @@ export default [
     "songs": [
       "Iron Man"
     ],
-    "cover": "/covers/black-sabbath-debut-era.jpg",
+    "cover": "/covers/black-sabbath-black-sabbath.jpg",
     "playUrl": "https://open.spotify.com/search/Black%20Sabbath",
     "buyUrl": "https://www.amazon.de/s?k=Black+Sabbath+vinyl"
   },
@@ -673,7 +673,7 @@ export default [
     "songs": [
       "Go Your Own Way"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-global.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Rumours%20Fleetwood%20Mac",
     "buyUrl": "https://www.amazon.de/s?k=Rumours+vinyl"
   },
@@ -689,7 +689,7 @@ export default [
     "songs": [
       "Seven Seas of Rhye"
     ],
-    "cover": "/covers/queen-early-era.jpg",
+    "cover": "/covers/queen-a-night-at-the-opera-era.jpg",
     "playUrl": "https://open.spotify.com/search/Queen",
     "buyUrl": "https://www.amazon.de/s?k=Queen+vinyl"
   },
@@ -737,7 +737,7 @@ export default [
     "songs": [
       "Kashmir"
     ],
-    "cover": "/covers/led-zeppelin-tour-era.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Led%20Zeppelin",
     "buyUrl": "https://www.amazon.de/s?k=Led+Zeppelin+vinyl"
   },
@@ -753,7 +753,7 @@ export default [
     "songs": [
       "New Kid in Town"
     ],
-    "cover": "/covers/eagles-hotel-california-success.jpg",
+    "cover": "/covers/eagles-hotel-california-era.jpg",
     "playUrl": "https://open.spotify.com/search/Eagles%20Hotel%20California",
     "buyUrl": "https://www.amazon.de/s?k=Hotel+California+vinyl"
   },
@@ -769,7 +769,7 @@ export default [
     "songs": [
       "Echoes"
     ],
-    "cover": "/covers/pink-floyd-live-development.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/Pink%20Floyd",
     "buyUrl": "https://www.amazon.de/s?k=Pink+Floyd+vinyl"
   },
@@ -785,7 +785,7 @@ export default [
     "songs": [
       "Smoke on the Water"
     ],
-    "cover": "/covers/deep-purple-machine-head-sessions.jpg",
+    "cover": "/covers/deep-purple-in-rock-impact.jpg",
     "playUrl": "https://open.spotify.com/search/Deep%20Purple%20Machine%20Head",
     "buyUrl": "https://www.amazon.de/s?k=Deep+Purple+Machine+Head+vinyl"
   },
@@ -801,7 +801,7 @@ export default [
     "songs": [
       "Highway to Hell"
     ],
-    "cover": "/covers/ac-dc-bon-scott-death.jpg",
+    "cover": "/covers/ac-dc-back-in-black-build-up.jpg",
     "playUrl": "https://open.spotify.com/search/ACDC",
     "buyUrl": "https://www.amazon.de/s?k=ACDC+vinyl"
   },
@@ -833,7 +833,7 @@ export default [
     "songs": [
       "Brown Sugar"
     ],
-    "cover": "/covers/the-rolling-stones-sticky-fingers-era.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Sticky%20Fingers%20Rolling%20Stones",
     "buyUrl": "https://www.amazon.de/s?k=Rolling+Stones+Sticky+Fingers+vinyl"
   },
@@ -849,7 +849,7 @@ export default [
     "songs": [
       "Seven Seas of Rhye"
     ],
-    "cover": "/covers/queen-queen-ii-era.jpg",
+    "cover": "/covers/queen-a-night-at-the-opera-era.jpg",
     "playUrl": "https://open.spotify.com/search/Queen%20Queen%20II",
     "buyUrl": "https://www.amazon.de/s?k=Queen+II+vinyl"
   },
@@ -865,7 +865,7 @@ export default [
     "songs": [
       "Dream On"
     ],
-    "cover": "/covers/aerosmith-breakthrough.jpg",
+    "cover": "/covers/aerosmith-aerosmith-debut-era.jpg",
     "playUrl": "https://open.spotify.com/search/Aerosmith",
     "buyUrl": "https://www.amazon.de/s?k=Aerosmith+vinyl"
   },
@@ -881,7 +881,7 @@ export default [
     "songs": [
       "The Chain"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-peak.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Rumours%20Fleetwood%20Mac",
     "buyUrl": "https://www.amazon.de/s?k=Fleetwood+Mac+Rumours+vinyl"
   },
@@ -897,7 +897,7 @@ export default [
     "songs": [
       "Stairway to Heaven"
     ],
-    "cover": "/covers/led-zeppelin-tour.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Led%20Zeppelin",
     "buyUrl": "https://www.amazon.de/s?k=Led+Zeppelin+vinyl"
   },
@@ -929,7 +929,7 @@ export default [
     "songs": [
       "War Pigs"
     ],
-    "cover": "/covers/black-sabbath-rise.jpg",
+    "cover": "/covers/black-sabbath-black-sabbath.jpg",
     "playUrl": "https://open.spotify.com/search/Black%20Sabbath",
     "buyUrl": "https://www.amazon.de/s?k=Black+Sabbath+vinyl"
   },
@@ -945,7 +945,7 @@ export default [
     "songs": [
       "Money"
     ],
-    "cover": "/covers/pink-floyd-pre-release.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/Pink%20Floyd%20The%20Dark%20Side%20of%20the%20Moon",
     "buyUrl": "https://www.amazon.de/s?k=Pink+Floyd+vinyl"
   },
@@ -977,7 +977,7 @@ export default [
     "songs": [
       "Time"
     ],
-    "cover": "/covers/pink-floyd-dark-side-build-up.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/Dark%20Side%20of%20the%20Moon",
     "buyUrl": "https://www.amazon.de/s?k=Pink+Floyd+vinyl"
   },
@@ -994,7 +994,7 @@ export default [
       "Money",
       "Time"
     ],
-    "cover": "/covers/pink-floyd-the-dark-side-of-the-moon.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/Dark%20Side%20of%20the%20Moon",
     "buyUrl": "https://www.amazon.de/s?k=Dark+Side+of+the+Moon+vinyl"
   },
@@ -1026,7 +1026,7 @@ export default [
     "songs": [
       "Honky Tonk Women"
     ],
-    "cover": "/covers/the-rolling-stones-love-you-live.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Rolling%20Stones",
     "buyUrl": "https://www.amazon.de/s?k=Rolling+Stones+vinyl"
   },
@@ -1042,7 +1042,7 @@ export default [
     "songs": [
       "Stairway to Heaven"
     ],
-    "cover": "/covers/led-zeppelin-stairway-era.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Led%20Zeppelin",
     "buyUrl": "https://www.amazon.de/s?k=Led+Zeppelin+vinyl"
   },
@@ -1058,7 +1058,7 @@ export default [
     "songs": [
       "A Day in the Life"
     ],
-    "cover": "/covers/the-beatles-sgt-pepper-phase.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/Beatles",
     "buyUrl": "https://www.amazon.de/s?k=Beatles+vinyl"
   },
@@ -1074,7 +1074,7 @@ export default [
     "songs": [
       "Dazed and Confused"
     ],
-    "cover": "/covers/led-zeppelin-first-tours.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Led%20Zeppelin",
     "buyUrl": "https://www.amazon.de/s?k=Led+Zeppelin+vinyl"
   },
@@ -1090,7 +1090,7 @@ export default [
     "songs": [
       "Kashmir"
     ],
-    "cover": "/covers/led-zeppelin-physical-graffiti.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Physical%20Graffiti",
     "buyUrl": "https://www.amazon.de/s?k=Physical+Graffiti+vinyl"
   },
@@ -1122,7 +1122,7 @@ export default [
     "songs": [
       "Sound and Vision"
     ],
-    "cover": "/covers/david-bowie-low.jpg",
+    "cover": "/covers/david-bowie-aladdin-sane-era.jpg",
     "playUrl": "https://open.spotify.com/search/David%20Bowie%20Low",
     "buyUrl": "https://www.amazon.de/s?k=Bowie+Low+vinyl"
   },
@@ -1188,7 +1188,7 @@ export default [
       "Money",
       "Us and Them"
     ],
-    "cover": "/covers/pink-floyd-the-dark-side-of-the-moon.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/Dark%20Side%20of%20the%20Moon",
     "buyUrl": "https://www.amazon.de/s?k=Dark+Side+of+the+Moon+vinyl"
   },
@@ -1204,7 +1204,7 @@ export default [
     "songs": [
       "Smoke on the Water"
     ],
-    "cover": "/covers/deep-purple-machine-head-era.jpg",
+    "cover": "/covers/deep-purple-in-rock-impact.jpg",
     "playUrl": "https://open.spotify.com/search/Machine%20Head",
     "buyUrl": "https://www.amazon.de/s?k=Deep+Purple+vinyl"
   },
@@ -1252,7 +1252,7 @@ export default [
     "songs": [
       "More Than a Feeling"
     ],
-    "cover": "/covers/boston-boston-era.jpg",
+    "cover": "/covers/boston-aor-breakthrough-imminent.jpg",
     "playUrl": "https://open.spotify.com/search/Boston",
     "buyUrl": "https://www.amazon.de/s?k=Boston+vinyl"
   },
@@ -1268,7 +1268,7 @@ export default [
     "songs": [
       "Over the Mountain"
     ],
-    "cover": "/covers/ozzy-osbourne-diary-of-a-madman.jpg",
+    "cover": "/covers/ozzy-osbourne-blizzard-of-ozz-build-up.jpg",
     "playUrl": "https://open.spotify.com/search/Ozzy%20Osbourne",
     "buyUrl": "https://www.amazon.de/s?k=Ozzy+vinyl"
   },
@@ -1284,7 +1284,7 @@ export default [
     "songs": [
       "Baba O'Riley"
     ],
-    "cover": "/covers/the-who-who-s-next-era.jpg",
+    "cover": "/covers/the-who-quadrophenia-era.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Who",
     "buyUrl": "https://www.amazon.de/s?k=The+Who+vinyl"
   },
@@ -1301,7 +1301,7 @@ export default [
       "Crazy Train",
       "Mr. Crowley"
     ],
-    "cover": "/covers/ozzy-osbourne-blizzard-of-ozz-era.jpg",
+    "cover": "/covers/ozzy-osbourne-blizzard-of-ozz-build-up.jpg",
     "playUrl": "https://open.spotify.com/search/Ozzy%20Osbourne",
     "buyUrl": "https://www.amazon.de/s?k=Ozzy+vinyl"
   },
@@ -1318,7 +1318,7 @@ export default [
       "Seven Seas of Rhye",
       "Father to Son"
     ],
-    "cover": "/covers/queen-queen-ii-momentum.jpg",
+    "cover": "/covers/queen-a-night-at-the-opera-era.jpg",
     "playUrl": "https://open.spotify.com/search/Queen%20Queen%20II",
     "buyUrl": "https://www.amazon.de/s?k=Queen+II+vinyl"
   },
@@ -1335,7 +1335,7 @@ export default [
       "Sweet Emotion",
       "Walk This Way"
     ],
-    "cover": "/covers/aerosmith-toys-in-the-attic-era.jpg",
+    "cover": "/covers/aerosmith-aerosmith-debut-era.jpg",
     "playUrl": "https://open.spotify.com/search/Aerosmith%20Toys%20in%20the%20Attic",
     "buyUrl": "https://www.amazon.de/s?k=Aerosmith+Toys+in+the+Attic+vinyl"
   },
@@ -1352,7 +1352,7 @@ export default [
       "Wheel in the Sky",
       "Lights"
     ],
-    "cover": "/covers/journey-infinity-era.jpg",
+    "cover": "/covers/journey-escape-era.jpg",
     "playUrl": "https://open.spotify.com/search/Journey%20Infinity",
     "buyUrl": "https://www.amazon.de/s?k=Journey+Infinity+vinyl"
   },
@@ -1370,7 +1370,7 @@ export default [
       "Smoke on the Water",
       "Lazy"
     ],
-    "cover": "/covers/deep-purple-machine-head.jpg",
+    "cover": "/covers/deep-purple-in-rock-impact.jpg",
     "playUrl": "https://open.spotify.com/search/Deep%20Purple%20Machine%20Head",
     "buyUrl": "https://www.amazon.de/s?k=Deep+Purple+Machine+Head+vinyl"
   },
@@ -1404,7 +1404,7 @@ export default [
       "The Spirit of Radio",
       "Freewill"
     ],
-    "cover": "/covers/rush-permanent-waves-era.jpg",
+    "cover": "/covers/rush-2112-era.jpg",
     "playUrl": "https://open.spotify.com/search/Rush%20Permanent%20Waves",
     "buyUrl": "https://www.amazon.de/s?k=Rush+Permanent+Waves+vinyl"
   },
@@ -1421,7 +1421,7 @@ export default [
       "Dreams",
       "The Chain"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-dominance.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Fleetwood%20Mac%20Rumours",
     "buyUrl": "https://www.amazon.de/s?k=Fleetwood+Mac+Rumours+vinyl"
   },
@@ -1438,7 +1438,7 @@ export default [
       "Free Bird",
       "Simple Man"
     ],
-    "cover": "/covers/lynyrd-skynyrd-pronounced-era.jpg",
+    "cover": "/covers/lynyrd-skynyrd-plane-crash-tragedy.jpg",
     "playUrl": "https://open.spotify.com/search/Lynyrd%20Skynyrd%20Pronounced",
     "buyUrl": "https://www.amazon.de/s?k=Lynyrd+Skynyrd+vinyl"
   },
@@ -1505,7 +1505,7 @@ export default [
     "songs": [
       "Sultans of Swing"
     ],
-    "cover": "/covers/dire-straits-dire-straits-rise.jpg",
+    "cover": "/covers/dire-straits-brothers-in-arms-era.jpg",
     "playUrl": "https://open.spotify.com/search/Dire%20Straits",
     "buyUrl": "https://www.amazon.de/s?k=Dire+Straits+vinyl"
   },
@@ -1521,7 +1521,7 @@ export default [
     "songs": [
       "Your Song"
     ],
-    "cover": "/covers/elton-john-your-song-breakthrough.jpg",
+    "cover": "/covers/elton-john-goodbye-yellow-brick-road-era.jpg",
     "playUrl": "https://open.spotify.com/search/Elton%20John",
     "buyUrl": "https://www.amazon.de/s?k=Elton+John+vinyl"
   },
@@ -1537,7 +1537,7 @@ export default [
     "songs": [
       "Touch Me"
     ],
-    "cover": "/covers/the-doors-soft-parade-era.jpg",
+    "cover": "/covers/the-doors-jim-morrison-death.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Doors",
     "buyUrl": "https://www.amazon.de/s?k=The+Doors+vinyl"
   },
@@ -1553,7 +1553,7 @@ export default [
     "songs": [
       "Bohemian Rhapsody"
     ],
-    "cover": "/covers/queen-bohemian-rhapsody-phase.jpg",
+    "cover": "/covers/queen-a-night-at-the-opera-era.jpg",
     "playUrl": "https://open.spotify.com/search/Queen",
     "buyUrl": "https://www.amazon.de/s?k=Queen+vinyl"
   },
@@ -1569,7 +1569,7 @@ export default [
     "songs": [
       "(I Can't Get No) Satisfaction"
     ],
-    "cover": "/covers/the-rolling-stones-satisfaction-impact.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Rolling%20Stones",
     "buyUrl": "https://www.amazon.de/s?k=Rolling+Stones+vinyl"
   },
@@ -1586,7 +1586,7 @@ export default [
       "The Ocean",
       "No Quarter"
     ],
-    "cover": "/covers/led-zeppelin-houses-of-the-holy.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Houses%20of%20the%20Holy",
     "buyUrl": "https://www.amazon.de/s?k=Led+Zeppelin+Houses+vinyl"
   },
@@ -1602,7 +1602,7 @@ export default [
     "songs": [
       "Go Your Own Way"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-era.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Fleetwood%20Mac%20Rumours",
     "buyUrl": "https://www.amazon.de/s?k=Fleetwood+Mac+Rumours+vinyl"
   },
@@ -1635,7 +1635,7 @@ export default [
     "songs": [
       "Maybe I'm Amazed"
     ],
-    "cover": "/covers/paul-mccartney-mccartney.jpg",
+    "cover": "/covers/paul-mccartney-birthday.jpg",
     "playUrl": "https://open.spotify.com/search/Paul%20McCartney",
     "buyUrl": "https://www.amazon.de/s?k=McCartney+vinyl"
   },
@@ -1651,7 +1651,7 @@ export default [
     "songs": [
       "Let It Be"
     ],
-    "cover": "/covers/the-beatles-breakup.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/Beatles",
     "buyUrl": "https://www.amazon.de/s?k=Beatles+vinyl"
   },
@@ -1667,7 +1667,7 @@ export default [
     "songs": [
       "Killer Queen"
     ],
-    "cover": "/covers/queen-sheer-heart-attack-era.jpg",
+    "cover": "/covers/queen-a-night-at-the-opera-era.jpg",
     "playUrl": "https://open.spotify.com/search/Queen%20Sheer%20Heart%20Attack",
     "buyUrl": "https://www.amazon.de/s?k=Queen+vinyl"
   },
@@ -1699,7 +1699,7 @@ export default [
     "songs": [
       "Pinball Wizard"
     ],
-    "cover": "/covers/the-who-tommy-era.jpg",
+    "cover": "/covers/the-who-quadrophenia-era.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Who%20Tommy",
     "buyUrl": "https://www.amazon.de/s?k=The+Who+Tommy+vinyl"
   },
@@ -1715,7 +1715,7 @@ export default [
     "songs": [
       "Heaven and Hell"
     ],
-    "cover": "/covers/black-sabbath-heaven-and-hell.jpg",
+    "cover": "/covers/black-sabbath-black-sabbath.jpg",
     "playUrl": "https://open.spotify.com/search/Black%20Sabbath%20Heaven%20and%20Hell",
     "buyUrl": "https://www.amazon.de/s?k=Black+Sabbath+vinyl"
   },
@@ -1747,7 +1747,7 @@ export default [
     "songs": [
       "Only Women Bleed"
     ],
-    "cover": "/covers/alice-cooper-welcome-to-my-nightmare.jpg",
+    "cover": "/covers/alice-cooper-school-s-out-era.jpg",
     "playUrl": "https://open.spotify.com/search/Alice%20Cooper%20Nightmare",
     "buyUrl": "https://www.amazon.de/s?k=Alice+Cooper+vinyl"
   },
@@ -1763,7 +1763,7 @@ export default [
     "songs": [
       "Feels Like the First Time"
     ],
-    "cover": "/covers/foreigner-foreigner-debut-era.jpg",
+    "cover": "/covers/foreigner-arena-radio-peak.jpg",
     "playUrl": "https://open.spotify.com/search/Foreigner",
     "buyUrl": "https://www.amazon.de/s?k=Foreigner+vinyl"
   },
@@ -1779,7 +1779,7 @@ export default [
     "songs": [
       "Brown Sugar"
     ],
-    "cover": "/covers/the-rolling-stones-sticky-fingers-era.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Sticky%20Fingers",
     "buyUrl": "https://www.amazon.de/s?k=Sticky+Fingers+vinyl"
   },
@@ -1795,7 +1795,7 @@ export default [
     "songs": [
       "Dance the Night Away"
     ],
-    "cover": "/covers/van-halen-van-halen-ii-era.jpg",
+    "cover": "/covers/van-halen-1984.jpg",
     "playUrl": "https://open.spotify.com/search/Van%20Halen",
     "buyUrl": "https://www.amazon.de/s?k=Van+Halen+vinyl"
   },
@@ -1875,7 +1875,7 @@ export default [
     "songs": [
       "Stone Cold Crazy"
     ],
-    "cover": "/covers/queen-queen-expansion.jpg",
+    "cover": "/covers/queen-a-night-at-the-opera-era.jpg",
     "playUrl": "https://open.spotify.com/search/Queen",
     "buyUrl": "https://www.amazon.de/s?k=Queen+vinyl"
   },
@@ -1891,7 +1891,7 @@ export default [
     "songs": [
       "Won't Get Fooled Again"
     ],
-    "cover": "/covers/the-who-who-s-next-recording.jpg",
+    "cover": "/covers/the-who-quadrophenia-era.jpg",
     "playUrl": "https://open.spotify.com/search/Who%27s%20Next",
     "buyUrl": "https://www.amazon.de/s?k=The+Who+vinyl"
   },
@@ -1923,7 +1923,7 @@ export default [
     "songs": [
       "Money"
     ],
-    "cover": "/covers/pink-floyd-dark-side-dominance.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/Dark%20Side%20of%20the%20Moon",
     "buyUrl": "https://www.amazon.de/s?k=Dark+Side+of+the+Moon+vinyl"
   },
@@ -1939,7 +1939,7 @@ export default [
     "songs": [
       "Back in Black"
     ],
-    "cover": "/covers/ac-dc-back-in-black-era.jpg",
+    "cover": "/covers/ac-dc-back-in-black-build-up.jpg",
     "playUrl": "https://open.spotify.com/search/ACDC%20Back%20in%20Black",
     "buyUrl": "https://www.amazon.de/s?k=ACDC+vinyl"
   },
@@ -1955,7 +1955,7 @@ export default [
     "songs": [
       "Hotel California"
     ],
-    "cover": "/covers/eagles-hotel-california-peak.jpg",
+    "cover": "/covers/eagles-hotel-california-era.jpg",
     "playUrl": "https://open.spotify.com/search/Hotel%20California",
     "buyUrl": "https://www.amazon.de/s?k=Eagles+vinyl"
   },
@@ -1971,7 +1971,7 @@ export default [
     "songs": [
       "Proud Mary"
     ],
-    "cover": "/covers/creedence-clearwater-revival-bayou-sound-rise.jpg",
+    "cover": "/covers/creedence-clearwater-revival-bayou-country.jpg",
     "playUrl": "https://open.spotify.com/search/Creedence%20Clearwater%20Revival",
     "buyUrl": "https://www.amazon.de/s?k=CCR+vinyl"
   },
@@ -1987,7 +1987,7 @@ export default [
     "songs": [
       "Tumbling Dice"
     ],
-    "cover": "/covers/the-rolling-stones-exile-era.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Exile%20on%20Main%20St",
     "buyUrl": "https://www.amazon.de/s?k=Rolling+Stones+Exile+vinyl"
   },
@@ -2003,7 +2003,7 @@ export default [
     "songs": [
       "Detroit Rock City"
     ],
-    "cover": "/covers/kiss-destroyer-era.jpg",
+    "cover": "/covers/kiss-alive-era.jpg",
     "playUrl": "https://open.spotify.com/search/KISS%20Destroyer",
     "buyUrl": "https://www.amazon.de/s?k=KISS+Destroyer+vinyl"
   },
@@ -2019,7 +2019,7 @@ export default [
     "songs": [
       "Ohio"
     ],
-    "cover": "/covers/crosby-stills-nash-young-ohio-impact.jpg",
+    "cover": "/covers/crosby-stills-nash-young-d-j-vu-era.jpg",
     "playUrl": "https://open.spotify.com/search/CSNY",
     "buyUrl": "https://www.amazon.de/s?k=CSNY+vinyl"
   },
@@ -2051,7 +2051,7 @@ export default [
     "songs": [
       "New Kid in Town"
     ],
-    "cover": "/covers/eagles-hotel-california-peak.jpg",
+    "cover": "/covers/eagles-hotel-california-era.jpg",
     "playUrl": "https://open.spotify.com/search/Eagles",
     "buyUrl": "https://www.amazon.de/s?k=Eagles+vinyl"
   },
@@ -2083,7 +2083,7 @@ export default [
     "songs": [
       "Let It Be"
     ],
-    "cover": "/covers/the-beatles-let-it-be-era.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/Let%20It%20Be",
     "buyUrl": "https://www.amazon.de/s?k=Let+It+Be+vinyl"
   },
@@ -2099,7 +2099,7 @@ export default [
     "songs": [
       "Born to Run"
     ],
-    "cover": "/covers/bruce-springsteen-born-to-run-era.jpg",
+    "cover": "/covers/bruce-springsteen-born-in-the-u-s-a-.jpg",
     "playUrl": "https://open.spotify.com/search/Bruce%20Springsteen",
     "buyUrl": "https://www.amazon.de/s?k=Springsteen+vinyl"
   },
@@ -2115,7 +2115,7 @@ export default [
     "songs": [
       "Night Moves"
     ],
-    "cover": "/covers/bob-seger-night-moves-era.jpg",
+    "cover": "/covers/bob-seger-heartland-rise.jpg",
     "playUrl": "https://open.spotify.com/search/Bob%20Seger",
     "buyUrl": "https://www.amazon.de/s?k=Bob+Seger+vinyl"
   },
@@ -2132,7 +2132,7 @@ export default [
       "Dreams",
       "The Chain"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-dominance.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Fleetwood%20Mac%20Rumours",
     "buyUrl": "https://www.amazon.de/s?k=Fleetwood+Mac+Rumours+vinyl"
   },
@@ -2148,7 +2148,7 @@ export default [
     "songs": [
       "Runnin' with the Devil"
     ],
-    "cover": "/covers/van-halen-van-halen-impact.jpg",
+    "cover": "/covers/van-halen-1984.jpg",
     "playUrl": "https://open.spotify.com/search/Van%20Halen",
     "buyUrl": "https://www.amazon.de/s?k=Van+Halen+vinyl"
   },
@@ -2164,7 +2164,7 @@ export default [
     "songs": [
       "Jumpin' Jack Flash"
     ],
-    "cover": "/covers/the-rolling-stones-jumpin-jack-flash.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Jumpin%20Jack%20Flash",
     "buyUrl": "https://www.amazon.de/s?k=Jumpin+Jack+Flash+vinyl"
   },
@@ -2180,7 +2180,7 @@ export default [
     "songs": [
       "More Than a Feeling"
     ],
-    "cover": "/covers/boston-boston-build-up.jpg",
+    "cover": "/covers/boston-aor-breakthrough-imminent.jpg",
     "playUrl": "https://open.spotify.com/search/Boston%20debut",
     "buyUrl": "https://www.amazon.de/s?k=Boston+vinyl"
   },
@@ -2229,7 +2229,7 @@ export default [
     "songs": [
       "Maybe I'm Amazed"
     ],
-    "cover": "/covers/wings-wings-over-america-era.jpg",
+    "cover": "/covers/paul-mccartney-wings-band-on-the-run-era.jpg",
     "playUrl": "https://open.spotify.com/search/Wings",
     "buyUrl": "https://www.amazon.de/s?k=Wings+vinyl"
   },
@@ -2246,7 +2246,7 @@ export default [
       "Hot Blooded",
       "Double Vision"
     ],
-    "cover": "/covers/foreigner-double-vision-era.jpg",
+    "cover": "/covers/foreigner-arena-radio-peak.jpg",
     "playUrl": "https://open.spotify.com/search/Foreigner%20Double%20Vision",
     "buyUrl": "https://www.amazon.de/s?k=Foreigner+Double+Vision+vinyl"
   },
@@ -2279,7 +2279,7 @@ export default [
       "Free Bird",
       "Simple Man"
     ],
-    "cover": "/covers/lynyrd-skynyrd-southern-rock-rise.jpg",
+    "cover": "/covers/lynyrd-skynyrd-plane-crash-tragedy.jpg",
     "playUrl": "https://open.spotify.com/search/Lynyrd%20Skynyrd",
     "buyUrl": "https://www.amazon.de/s?k=Lynyrd+Skynyrd+vinyl"
   },
@@ -2313,7 +2313,7 @@ export default [
       "The Logical Song",
       "Take the Long Way Home"
     ],
-    "cover": "/covers/supertramp-breakfast-in-america-peak.jpg",
+    "cover": "/covers/supertramp-breakfast-in-america-longevity.jpg",
     "playUrl": "https://open.spotify.com/search/Breakfast%20in%20America",
     "buyUrl": "https://www.amazon.de/s?k=Breakfast+in+America+vinyl"
   },
@@ -2329,7 +2329,7 @@ export default [
     "songs": [
       "Rhiannon"
     ],
-    "cover": "/covers/fleetwood-mac-fleetwood-mac-reboot-era.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Fleetwood%20Mac",
     "buyUrl": "https://www.amazon.de/s?k=Fleetwood+Mac+vinyl"
   },
@@ -2363,7 +2363,7 @@ export default [
       "Wheel in the Sky",
       "Lights"
     ],
-    "cover": "/covers/journey-infinity-momentum.jpg",
+    "cover": "/covers/journey-escape-era.jpg",
     "playUrl": "https://open.spotify.com/search/Journey%20Infinity",
     "buyUrl": "https://www.amazon.de/s?k=Journey+Infinity+vinyl"
   },
@@ -2381,7 +2381,7 @@ export default [
       "Rocks Off",
       "Sweet Virginia"
     ],
-    "cover": "/covers/the-rolling-stones-exile-on-main-st-.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Exile%20on%20Main%20St",
     "buyUrl": "https://www.amazon.de/s?k=Exile+on+Main+St+vinyl"
   },
@@ -2398,7 +2398,7 @@ export default [
       "Feels Like the First Time",
       "Cold as Ice"
     ],
-    "cover": "/covers/foreigner-foreigner-era.jpg",
+    "cover": "/covers/foreigner-arena-radio-peak.jpg",
     "playUrl": "https://open.spotify.com/search/Foreigner%20Foreigner",
     "buyUrl": "https://www.amazon.de/s?k=Foreigner+debut+vinyl"
   },
@@ -2415,7 +2415,7 @@ export default [
       "Show Me the Way",
       "Baby, I Love Your Way"
     ],
-    "cover": "/covers/peter-frampton-frampton-comes-alive-lift-off.jpg",
+    "cover": "/covers/peter-frampton-frampton-comes-alive-era.jpg",
     "playUrl": "https://open.spotify.com/search/Frampton%20Comes%20Alive",
     "buyUrl": "https://www.amazon.de/s?k=Frampton+Comes+Alive+vinyl"
   },
@@ -2431,7 +2431,7 @@ export default [
     "songs": [
       "My Sharona"
     ],
-    "cover": "/covers/the-knack-power-pop-breakthrough.jpg",
+    "cover": "/covers/the-knack-get-the-knack-era.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Knack",
     "buyUrl": "https://www.amazon.de/s?k=The+Knack+vinyl"
   },
@@ -2465,7 +2465,7 @@ export default [
       "The Chain",
       "Go Your Own Way"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-global-peak.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Fleetwood%20Mac%20Rumours",
     "buyUrl": "https://www.amazon.de/s?k=Fleetwood+Mac+Rumours+vinyl"
   },
@@ -2482,7 +2482,7 @@ export default [
       "Lucy in the Sky with Diamonds",
       "A Day in the Life"
     ],
-    "cover": "/covers/the-beatles-sgt-pepper-s-lonely-hearts-club-band.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/Sgt%20Pepper",
     "buyUrl": "https://www.amazon.de/s?k=Sgt+Pepper+vinyl"
   },
@@ -2499,7 +2499,7 @@ export default [
       "Miss You",
       "Beast of Burden"
     ],
-    "cover": "/covers/the-rolling-stones-some-girls-era.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Some%20Girls",
     "buyUrl": "https://www.amazon.de/s?k=Some+Girls+vinyl"
   },
@@ -2550,7 +2550,7 @@ export default [
       "One of These Nights",
       "Lyin' Eyes"
     ],
-    "cover": "/covers/eagles-one-of-these-nights-era.jpg",
+    "cover": "/covers/eagles-hotel-california-era.jpg",
     "playUrl": "https://open.spotify.com/search/One%20of%20These%20Nights",
     "buyUrl": "https://www.amazon.de/s?k=One+of+These+Nights+vinyl"
   },
@@ -2566,7 +2566,7 @@ export default [
     "songs": [
       "Love Me Do"
     ],
-    "cover": "/covers/the-beatles-emi-session.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Beatles",
     "buyUrl": "https://www.amazon.de/s?k=Beatles+vinyl"
   },
@@ -2583,7 +2583,7 @@ export default [
       "The Logical Song",
       "Goodbye Stranger"
     ],
-    "cover": "/covers/supertramp-breakfast-in-america-peak.jpg",
+    "cover": "/covers/supertramp-breakfast-in-america-longevity.jpg",
     "playUrl": "https://open.spotify.com/search/Breakfast%20in%20America",
     "buyUrl": "https://www.amazon.de/s?k=Breakfast+in+America+vinyl"
   },
@@ -2600,7 +2600,7 @@ export default [
       "Just What I Needed",
       "My Best Friend's Girl"
     ],
-    "cover": "/covers/the-cars-the-cars.jpg",
+    "cover": "/covers/the-cars-new-wave-rise.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Cars%20The%20Cars",
     "buyUrl": "https://www.amazon.de/s?k=The+Cars+debut+vinyl"
   },
@@ -2617,7 +2617,7 @@ export default [
       "Starman",
       "Moonage Daydream"
     ],
-    "cover": "/covers/david-bowie-ziggy-stardust-era.jpg",
+    "cover": "/covers/david-bowie-aladdin-sane-era.jpg",
     "playUrl": "https://open.spotify.com/search/Ziggy%20Stardust",
     "buyUrl": "https://www.amazon.de/s?k=Ziggy+Stardust+vinyl"
   },
@@ -2634,7 +2634,7 @@ export default [
       "Night Moves",
       "Mainstreet"
     ],
-    "cover": "/covers/bob-seger-night-moves-era.jpg",
+    "cover": "/covers/bob-seger-heartland-rise.jpg",
     "playUrl": "https://open.spotify.com/search/Bob%20Seger%20Night%20Moves",
     "buyUrl": "https://www.amazon.de/s?k=Bob+Seger+Night+Moves+vinyl"
   },
@@ -2651,7 +2651,7 @@ export default [
       "Dreams",
       "You Make Loving Fun"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-afterglow.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Fleetwood%20Mac%20Rumours",
     "buyUrl": "https://www.amazon.de/s?k=Fleetwood+Mac+Rumours+vinyl"
   },
@@ -2668,7 +2668,7 @@ export default [
       "Walk This Way",
       "Sweet Emotion"
     ],
-    "cover": "/covers/aerosmith-toys-in-the-attic-breakthrough.jpg",
+    "cover": "/covers/aerosmith-aerosmith-debut-era.jpg",
     "playUrl": "https://open.spotify.com/search/Toys%20in%20the%20Attic",
     "buyUrl": "https://www.amazon.de/s?k=Aerosmith+Toys+in+the+Attic+vinyl"
   },
@@ -2684,7 +2684,7 @@ export default [
     "songs": [
       "Lovin', Touchin', Squeezin'"
     ],
-    "cover": "/covers/journey-evolution-era.jpg",
+    "cover": "/covers/journey-escape-era.jpg",
     "playUrl": "https://open.spotify.com/search/Journey%20Evolution",
     "buyUrl": "https://www.amazon.de/s?k=Journey+Evolution+vinyl"
   },
@@ -2733,7 +2733,7 @@ export default [
       "Starman",
       "Rock 'n' Roll Suicide"
     ],
-    "cover": "/covers/david-bowie-ziggy-stardust-peak.jpg",
+    "cover": "/covers/david-bowie-aladdin-sane-era.jpg",
     "playUrl": "https://open.spotify.com/search/Ziggy%20Stardust",
     "buyUrl": "https://www.amazon.de/s?k=Ziggy+Stardust+vinyl"
   },
@@ -2750,7 +2750,7 @@ export default [
       "More Than a Feeling",
       "Peace of Mind"
     ],
-    "cover": "/covers/boston-boston-dominance.jpg",
+    "cover": "/covers/boston-aor-breakthrough-imminent.jpg",
     "playUrl": "https://open.spotify.com/search/Boston%20Boston",
     "buyUrl": "https://www.amazon.de/s?k=Boston+vinyl"
   },
@@ -2783,7 +2783,7 @@ export default [
     "songs": [
       "Hot Blooded"
     ],
-    "cover": "/covers/foreigner-double-vision-build-up.jpg",
+    "cover": "/covers/foreigner-arena-radio-peak.jpg",
     "playUrl": "https://open.spotify.com/search/Double%20Vision",
     "buyUrl": "https://www.amazon.de/s?k=Double+Vision+vinyl"
   },
@@ -2832,7 +2832,7 @@ export default [
     "songs": [
       "Goodbye Stranger"
     ],
-    "cover": "/covers/supertramp-breakfast-in-america-peak.jpg",
+    "cover": "/covers/supertramp-breakfast-in-america-longevity.jpg",
     "playUrl": "https://open.spotify.com/search/Breakfast%20in%20America",
     "buyUrl": "https://www.amazon.de/s?k=Breakfast+in+America+vinyl"
   },
@@ -2848,7 +2848,7 @@ export default [
     "songs": [
       "Only Women Bleed"
     ],
-    "cover": "/covers/alice-cooper-welcome-to-my-nightmare-era.jpg",
+    "cover": "/covers/alice-cooper-school-s-out-era.jpg",
     "playUrl": "https://open.spotify.com/search/Welcome%20to%20My%20Nightmare",
     "buyUrl": "https://www.amazon.de/s?k=Welcome+to+My+Nightmare+vinyl"
   },
@@ -2880,7 +2880,7 @@ export default [
     "songs": [
       "All You Need Is Love"
     ],
-    "cover": "/covers/the-beatles-all-you-need-is-love-broadcast.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Beatles",
     "buyUrl": "https://www.amazon.de/s?k=Beatles+vinyl"
   },
@@ -2928,7 +2928,7 @@ export default [
     "songs": [
       "Just What I Needed"
     ],
-    "cover": "/covers/the-cars-the-cars-impact.jpg",
+    "cover": "/covers/the-cars-new-wave-rise.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Cars%20The%20Cars",
     "buyUrl": "https://www.amazon.de/s?k=The+Cars+debut+vinyl"
   },
@@ -2944,7 +2944,7 @@ export default [
     "songs": [
       "What a Fool Believes"
     ],
-    "cover": "/covers/the-doobie-brothers-minute-by-minute-staying-power.jpg",
+    "cover": "/covers/the-doobie-brothers-minute-by-minute-momentum.jpg",
     "playUrl": "https://open.spotify.com/search/Minute%20by%20Minute",
     "buyUrl": "https://www.amazon.de/s?k=Minute+by+Minute+vinyl"
   },
@@ -2961,7 +2961,7 @@ export default [
       "Double Vision",
       "Hot Blooded"
     ],
-    "cover": "/covers/foreigner-double-vision-lift-off.jpg",
+    "cover": "/covers/foreigner-arena-radio-peak.jpg",
     "playUrl": "https://open.spotify.com/search/Double%20Vision",
     "buyUrl": "https://www.amazon.de/s?k=Double+Vision+vinyl"
   },
@@ -2994,7 +2994,7 @@ export default [
     "songs": [
       "The Logical Song"
     ],
-    "cover": "/covers/supertramp-breakfast-in-america-momentum.jpg",
+    "cover": "/covers/supertramp-breakfast-in-america-longevity.jpg",
     "playUrl": "https://open.spotify.com/search/Breakfast%20in%20America",
     "buyUrl": "https://www.amazon.de/s?k=Breakfast+in+America+vinyl"
   },
@@ -3065,7 +3065,7 @@ export default [
       "Two of Us",
       "I Saw Her Standing There"
     ],
-    "cover": "/covers/the-beatles-lennon-meets-mccartney.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Beatles",
     "buyUrl": "https://www.amazon.de/s?k=Beatles+vinyl"
   },
@@ -3082,7 +3082,7 @@ export default [
       "Miss You",
       "Beast of Burden"
     ],
-    "cover": "/covers/the-rolling-stones-some-girls-era.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Some%20Girls",
     "buyUrl": "https://www.amazon.de/s?k=Some+Girls+vinyl"
   },
@@ -3099,7 +3099,7 @@ export default [
       "Born to Run",
       "Thunder Road"
     ],
-    "cover": "/covers/bruce-springsteen-born-to-run-build-up.jpg",
+    "cover": "/covers/bruce-springsteen-born-in-the-u-s-a-.jpg",
     "playUrl": "https://open.spotify.com/search/Born%20to%20Run",
     "buyUrl": "https://www.amazon.de/s?k=Born+to+Run+vinyl"
   },
@@ -3116,7 +3116,7 @@ export default [
       "A Case of You",
       "California"
     ],
-    "cover": "/covers/joni-mitchell-blue-impact.jpg",
+    "cover": "/covers/joni-mitchell-blue-era.jpg",
     "playUrl": "https://open.spotify.com/search/Joni%20Mitchell%20Blue",
     "buyUrl": "https://www.amazon.de/s?k=Joni+Mitchell+Blue+vinyl"
   },
@@ -3133,7 +3133,7 @@ export default [
       "Starman",
       "Life on Mars?"
     ],
-    "cover": "/covers/david-bowie-glam-peak.jpg",
+    "cover": "/covers/david-bowie-aladdin-sane-era.jpg",
     "playUrl": "https://open.spotify.com/search/David%20Bowie",
     "buyUrl": "https://www.amazon.de/s?k=David+Bowie+vinyl"
   },
@@ -3150,7 +3150,7 @@ export default [
       "Dreams",
       "The Chain"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-longevity.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Fleetwood%20Mac%20Rumours",
     "buyUrl": "https://www.amazon.de/s?k=Fleetwood+Mac+Rumours+vinyl"
   },
@@ -3166,7 +3166,7 @@ export default [
     "songs": [
       "My Sharona"
     ],
-    "cover": "/covers/the-knack-get-the-knack-impact.jpg",
+    "cover": "/covers/the-knack-get-the-knack-era.jpg",
     "playUrl": "https://open.spotify.com/search/Get%20the%20Knack",
     "buyUrl": "https://www.amazon.de/s?k=Get+the+Knack+vinyl"
   },
@@ -3199,7 +3199,7 @@ export default [
     "songs": [
       "Don't Look Back"
     ],
-    "cover": "/covers/boston-don-t-look-back-era.jpg",
+    "cover": "/covers/boston-aor-breakthrough-imminent.jpg",
     "playUrl": "https://open.spotify.com/search/Boston%20Don't%20Look%20Back",
     "buyUrl": "https://www.amazon.de/s?k=Boston+vinyl"
   },
@@ -3216,7 +3216,7 @@ export default [
       "Show Me the Way",
       "Baby, I Love Your Way"
     ],
-    "cover": "/covers/peter-frampton-frampton-comes-alive-peak.jpg",
+    "cover": "/covers/peter-frampton-frampton-comes-alive-era.jpg",
     "playUrl": "https://open.spotify.com/search/Frampton%20Comes%20Alive",
     "buyUrl": "https://www.amazon.de/s?k=Frampton+Comes+Alive+vinyl"
   },
@@ -3233,7 +3233,7 @@ export default [
       "Feels Like the First Time",
       "Cold as Ice"
     ],
-    "cover": "/covers/foreigner-foreigner-momentum.jpg",
+    "cover": "/covers/foreigner-arena-radio-peak.jpg",
     "playUrl": "https://open.spotify.com/search/Foreigner%20Foreigner",
     "buyUrl": "https://www.amazon.de/s?k=Foreigner+debut+vinyl"
   },
@@ -3250,7 +3250,7 @@ export default [
       "Baba O'Riley",
       "Won't Get Fooled Again"
     ],
-    "cover": "/covers/the-who-who-s-next-build-up.jpg",
+    "cover": "/covers/the-who-quadrophenia-era.jpg",
     "playUrl": "https://open.spotify.com/search/Whos%20Next",
     "buyUrl": "https://www.amazon.de/s?k=Whos+Next+vinyl"
   },
@@ -3283,7 +3283,7 @@ export default [
     "songs": [
       "Lovin', Touchin', Squeezin'"
     ],
-    "cover": "/covers/journey-evolution-momentum.jpg",
+    "cover": "/covers/journey-escape-era.jpg",
     "playUrl": "https://open.spotify.com/search/Journey%20Evolution",
     "buyUrl": "https://www.amazon.de/s?k=Journey+Evolution+vinyl"
   },
@@ -3315,7 +3315,7 @@ export default [
     "songs": [
       "Just What I Needed"
     ],
-    "cover": "/covers/the-cars-the-cars-momentum.jpg",
+    "cover": "/covers/the-cars-new-wave-rise.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Cars%20The%20Cars",
     "buyUrl": "https://www.amazon.de/s?k=The+Cars+debut+vinyl"
   },
@@ -3332,7 +3332,7 @@ export default [
       "Lowdown",
       "Lido Shuffle"
     ],
-    "cover": "/covers/boz-scaggs-silk-degrees-peak.jpg",
+    "cover": "/covers/boz-scaggs-silk-degrees-momentum.jpg",
     "playUrl": "https://open.spotify.com/search/Silk%20Degrees",
     "buyUrl": "https://www.amazon.de/s?k=Silk+Degrees+vinyl"
   },
@@ -3364,7 +3364,7 @@ export default [
     "songs": [
       "Give a Little Bit"
     ],
-    "cover": "/covers/supertramp-fm-craftsmanship.jpg",
+    "cover": "/covers/supertramp-breakfast-in-america-longevity.jpg",
     "playUrl": "https://open.spotify.com/search/Supertramp",
     "buyUrl": "https://www.amazon.de/s?k=Supertramp+vinyl"
   },
@@ -3380,7 +3380,7 @@ export default [
     "songs": [
       "Crazy Train"
     ],
-    "cover": "/covers/ozzy-osbourne-solo-launch-era.jpg",
+    "cover": "/covers/ozzy-osbourne-blizzard-of-ozz-build-up.jpg",
     "playUrl": "https://open.spotify.com/search/Ozzy%20Osbourne",
     "buyUrl": "https://www.amazon.de/s?k=Ozzy+vinyl"
   },
@@ -3397,7 +3397,7 @@ export default [
       "Radio Ga Ga",
       "I'm in Love with My Car"
     ],
-    "cover": "/covers/queen-roger-taylor-birthday.jpg",
+    "cover": "/covers/queen-a-night-at-the-opera-era.jpg",
     "playUrl": "https://open.spotify.com/search/Queen",
     "buyUrl": "https://www.amazon.de/s?k=Queen+vinyl"
   },
@@ -3413,7 +3413,7 @@ export default [
     "songs": [
       "Message in a Bottle"
     ],
-    "cover": "/covers/the-police-reggae-rock-crossover.jpg",
+    "cover": "/covers/the-police-outlandos-d-amour-era.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Police",
     "buyUrl": "https://www.amazon.de/s?k=The+Police+vinyl"
   },
@@ -3446,7 +3446,7 @@ export default [
       "Brown Sugar",
       "Wild Horses"
     ],
-    "cover": "/covers/the-rolling-stones-sticky-fingers-momentum.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Sticky%20Fingers",
     "buyUrl": "https://www.amazon.de/s?k=Sticky+Fingers+vinyl"
   },
@@ -3463,7 +3463,7 @@ export default [
       "Simple Man",
       "Free Bird"
     ],
-    "cover": "/covers/lynyrd-skynyrd-southern-rock-momentum.jpg",
+    "cover": "/covers/lynyrd-skynyrd-plane-crash-tragedy.jpg",
     "playUrl": "https://open.spotify.com/search/Lynyrd%20Skynyrd",
     "buyUrl": "https://www.amazon.de/s?k=Lynyrd+Skynyrd+vinyl"
   },
@@ -3479,7 +3479,7 @@ export default [
     "songs": [
       "More Than a Feeling"
     ],
-    "cover": "/covers/boston-aor-breakthrough.jpg",
+    "cover": "/covers/boston-aor-breakthrough-imminent.jpg",
     "playUrl": "https://open.spotify.com/search/Boston",
     "buyUrl": "https://www.amazon.de/s?k=Boston+vinyl"
   },
@@ -3496,7 +3496,7 @@ export default [
       "Brown Sugar",
       "Wild Horses"
     ],
-    "cover": "/covers/the-rolling-stones-sticky-fingers-momentum.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Sticky%20Fingers",
     "buyUrl": "https://www.amazon.de/s?k=Sticky+Fingers+vinyl"
   },
@@ -3513,7 +3513,7 @@ export default [
       "More Than a Feeling",
       "Peace of Mind"
     ],
-    "cover": "/covers/boston-boston-breakthrough.jpg",
+    "cover": "/covers/boston-aor-breakthrough-imminent.jpg",
     "playUrl": "https://open.spotify.com/search/Boston%20Boston",
     "buyUrl": "https://www.amazon.de/s?k=Boston+debut+vinyl"
   },
@@ -3530,7 +3530,7 @@ export default [
       "Dreams",
       "Go Your Own Way"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-longevity.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Fleetwood%20Mac%20Rumours",
     "buyUrl": "https://www.amazon.de/s?k=Fleetwood+Mac+Rumours+vinyl"
   },
@@ -3547,7 +3547,7 @@ export default [
       "Born to Run",
       "Thunder Road"
     ],
-    "cover": "/covers/bruce-springsteen-born-to-run-build-up.jpg",
+    "cover": "/covers/bruce-springsteen-born-in-the-u-s-a-.jpg",
     "playUrl": "https://open.spotify.com/search/Born%20to%20Run",
     "buyUrl": "https://www.amazon.de/s?k=Born+to+Run+vinyl"
   },
@@ -3564,7 +3564,7 @@ export default [
       "Eleanor Rigby",
       "Tomorrow Never Knows"
     ],
-    "cover": "/covers/the-beatles-revolver-era.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/Beatles%20Revolver",
     "buyUrl": "https://www.amazon.de/s?k=Revolver+vinyl"
   },
@@ -3581,7 +3581,7 @@ export default [
       "Help!",
       "Yesterday"
     ],
-    "cover": "/covers/the-beatles-help-era.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/Beatles%20Help",
     "buyUrl": "https://www.amazon.de/s?k=Help+Beatles+vinyl"
   },
@@ -3632,7 +3632,7 @@ export default [
       "One of These Nights",
       "Lyin' Eyes"
     ],
-    "cover": "/covers/eagles-one-of-these-nights-momentum.jpg",
+    "cover": "/covers/eagles-hotel-california-era.jpg",
     "playUrl": "https://open.spotify.com/search/One%20of%20These%20Nights",
     "buyUrl": "https://www.amazon.de/s?k=One+of+These+Nights+vinyl"
   },
@@ -3649,7 +3649,7 @@ export default [
       "My Sharona",
       "Good Girls Don't"
     ],
-    "cover": "/covers/the-knack-get-the-knack-peak.jpg",
+    "cover": "/covers/the-knack-get-the-knack-era.jpg",
     "playUrl": "https://open.spotify.com/search/Get%20the%20Knack",
     "buyUrl": "https://www.amazon.de/s?k=Get+the+Knack+vinyl"
   },
@@ -3666,7 +3666,7 @@ export default [
       "Hot Blooded",
       "Double Vision"
     ],
-    "cover": "/covers/foreigner-double-vision-momentum.jpg",
+    "cover": "/covers/foreigner-arena-radio-peak.jpg",
     "playUrl": "https://open.spotify.com/search/Double%20Vision",
     "buyUrl": "https://www.amazon.de/s?k=Double+Vision+vinyl"
   },
@@ -3682,7 +3682,7 @@ export default [
     "songs": [
       "Give a Little Bit"
     ],
-    "cover": "/covers/supertramp-fm-precision.jpg",
+    "cover": "/covers/supertramp-breakfast-in-america-longevity.jpg",
     "playUrl": "https://open.spotify.com/search/Supertramp",
     "buyUrl": "https://www.amazon.de/s?k=Supertramp+vinyl"
   },
@@ -3699,7 +3699,7 @@ export default [
       "Baba O'Riley",
       "Behind Blue Eyes"
     ],
-    "cover": "/covers/the-who-who-s-next-momentum.jpg",
+    "cover": "/covers/the-who-quadrophenia-era.jpg",
     "playUrl": "https://open.spotify.com/search/Whos%20Next",
     "buyUrl": "https://www.amazon.de/s?k=Whos+Next+vinyl"
   },
@@ -3752,7 +3752,7 @@ export default [
       "If I Can Dream",
       "Burning Love"
     ],
-    "cover": "/covers/elvis-presley-death.jpg",
+    "cover": "/covers/elvis-presley-breakthrough-era.jpg",
     "playUrl": "https://open.spotify.com/search/Elvis%20Presley",
     "buyUrl": "https://www.amazon.de/s?k=Elvis+Presley+vinyl"
   },
@@ -3769,7 +3769,7 @@ export default [
       "Just What I Needed",
       "My Best Friend's Girl"
     ],
-    "cover": "/covers/the-cars-the-cars-momentum.jpg",
+    "cover": "/covers/the-cars-new-wave-rise.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Cars%20The%20Cars",
     "buyUrl": "https://www.amazon.de/s?k=The+Cars+debut+vinyl"
   },
@@ -3786,7 +3786,7 @@ export default [
       "Don't Look Back",
       "A Man I'll Never Be"
     ],
-    "cover": "/covers/boston-don-t-look-back-era.jpg",
+    "cover": "/covers/boston-aor-breakthrough-imminent.jpg",
     "playUrl": "https://open.spotify.com/search/Boston%20Don't%20Look%20Back",
     "buyUrl": "https://www.amazon.de/s?k=Boston+Dont+Look+Back+vinyl"
   },
@@ -3803,7 +3803,7 @@ export default [
       "Feels Like the First Time",
       "Cold as Ice"
     ],
-    "cover": "/covers/foreigner-foreigner-lift-off.jpg",
+    "cover": "/covers/foreigner-arena-radio-peak.jpg",
     "playUrl": "https://open.spotify.com/search/Foreigner%20Foreigner",
     "buyUrl": "https://www.amazon.de/s?k=Foreigner+debut+vinyl"
   },
@@ -3821,7 +3821,7 @@ export default [
       "That Smell",
       "Free Bird"
     ],
-    "cover": "/covers/lynyrd-skynyrd-street-survivors-era.jpg",
+    "cover": "/covers/lynyrd-skynyrd-plane-crash-tragedy.jpg",
     "playUrl": "https://open.spotify.com/search/Lynyrd%20Skynyrd%20Street%20Survivors",
     "buyUrl": "https://www.amazon.de/s?k=Lynyrd+Skynyrd+Street+Survivors+vinyl"
   },
@@ -3838,7 +3838,7 @@ export default [
       "Born to Run",
       "Thunder Road"
     ],
-    "cover": "/covers/bruce-springsteen-born-to-run-arrival.jpg",
+    "cover": "/covers/bruce-springsteen-born-in-the-u-s-a-.jpg",
     "playUrl": "https://open.spotify.com/search/Born%20to%20Run",
     "buyUrl": "https://www.amazon.de/s?k=Born+to+Run+vinyl"
   },
@@ -3855,7 +3855,7 @@ export default [
       "While My Guitar Gently Weeps",
       "Dear Prudence"
     ],
-    "cover": "/covers/the-beatles-white-album-era.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/White%20Album%20Beatles",
     "buyUrl": "https://www.amazon.de/s?k=White+Album+Beatles+vinyl"
   },
@@ -3889,7 +3889,7 @@ export default [
       "Baba O'Riley",
       "Won't Get Fooled Again"
     ],
-    "cover": "/covers/the-who-who-s-next-peak.jpg",
+    "cover": "/covers/the-who-quadrophenia-era.jpg",
     "playUrl": "https://open.spotify.com/search/Whos%20Next",
     "buyUrl": "https://www.amazon.de/s?k=Whos+Next+vinyl"
   },
@@ -3906,7 +3906,7 @@ export default [
       "Lowdown",
       "Lido Shuffle"
     ],
-    "cover": "/covers/boz-scaggs-silk-degrees-peak.jpg",
+    "cover": "/covers/boz-scaggs-silk-degrees-momentum.jpg",
     "playUrl": "https://open.spotify.com/search/Silk%20Degrees",
     "buyUrl": "https://www.amazon.de/s?k=Silk+Degrees+vinyl"
   },
@@ -3923,7 +3923,7 @@ export default [
       "Wheel in the Sky",
       "Lights"
     ],
-    "cover": "/covers/journey-infinity-era.jpg",
+    "cover": "/covers/journey-escape-era.jpg",
     "playUrl": "https://open.spotify.com/search/Journey%20Infinity",
     "buyUrl": "https://www.amazon.de/s?k=Journey+Infinity+vinyl"
   },
@@ -3957,7 +3957,7 @@ export default [
       "Runnin' with the Devil",
       "Eruption"
     ],
-    "cover": "/covers/van-halen-debut-shockwave.jpg",
+    "cover": "/covers/van-halen-1984.jpg",
     "playUrl": "https://open.spotify.com/search/Van%20Halen%20Van%20Halen",
     "buyUrl": "https://www.amazon.de/s?k=Van+Halen+debut+vinyl"
   },
@@ -3974,7 +3974,7 @@ export default [
       "Tomorrow Never Knows",
       "Eleanor Rigby"
     ],
-    "cover": "/covers/the-beatles-revolver-impact.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/Beatles%20Revolver",
     "buyUrl": "https://www.amazon.de/s?k=Revolver+vinyl"
   },
@@ -3991,7 +3991,7 @@ export default [
       "Bohemian Rhapsody",
       "You're My Best Friend"
     ],
-    "cover": "/covers/queen-opera-build-up.jpg",
+    "cover": "/covers/queen-a-night-at-the-opera-era.jpg",
     "playUrl": "https://open.spotify.com/search/Queen%20A%20Night%20at%20the%20Opera",
     "buyUrl": "https://www.amazon.de/s?k=Queen+A+Night+at+the+Opera+vinyl"
   },
@@ -4009,7 +4009,7 @@ export default [
       "The Chain",
       "Go Your Own Way"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-cultural-peak.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Fleetwood%20Mac%20Rumours",
     "buyUrl": "https://www.amazon.de/s?k=Fleetwood+Mac+Rumours+vinyl"
   },
@@ -4026,7 +4026,7 @@ export default [
       "Shine On You Crazy Diamond",
       "Wish You Were Here"
     ],
-    "cover": "/covers/pink-floyd-wish-you-were-here-release.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/Wish%20You%20Were%20Here",
     "buyUrl": "https://www.amazon.de/s?k=Wish+You+Were+Here+vinyl"
   },
@@ -4043,7 +4043,7 @@ export default [
       "Whole Lotta Love",
       "Ramble On"
     ],
-    "cover": "/covers/led-zeppelin-led-zeppelin-ii-era.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Led%20Zeppelin%20II",
     "buyUrl": "https://www.amazon.de/s?k=Led+Zeppelin+II+vinyl"
   },
@@ -4092,7 +4092,7 @@ export default [
       "Fame",
       "Young Americans"
     ],
-    "cover": "/covers/david-bowie-young-americans-era.jpg",
+    "cover": "/covers/david-bowie-aladdin-sane-era.jpg",
     "playUrl": "https://open.spotify.com/search/David%20Bowie%20Young%20Americans",
     "buyUrl": "https://www.amazon.de/s?k=David+Bowie+Young+Americans+vinyl"
   },
@@ -4109,7 +4109,7 @@ export default [
       "Miss You",
       "Beast of Burden"
     ],
-    "cover": "/covers/the-rolling-stones-some-girls-peak.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Some%20Girls",
     "buyUrl": "https://www.amazon.de/s?k=Some+Girls+vinyl"
   },
@@ -4126,7 +4126,7 @@ export default [
       "The Logical Song",
       "Take the Long Way Home"
     ],
-    "cover": "/covers/supertramp-breakfast-in-america-peak.jpg",
+    "cover": "/covers/supertramp-breakfast-in-america-longevity.jpg",
     "playUrl": "https://open.spotify.com/search/Breakfast%20in%20America",
     "buyUrl": "https://www.amazon.de/s?k=Breakfast+in+America+vinyl"
   },
@@ -4143,7 +4143,7 @@ export default [
       "Born to Run",
       "Thunder Road"
     ],
-    "cover": "/covers/bruce-springsteen-born-to-run-release.jpg",
+    "cover": "/covers/bruce-springsteen-born-in-the-u-s-a-.jpg",
     "playUrl": "https://open.spotify.com/search/Born%20to%20Run",
     "buyUrl": "https://www.amazon.de/s?k=Born+to+Run+vinyl"
   },
@@ -4159,7 +4159,7 @@ export default [
     "songs": [
       "Heroes"
     ],
-    "cover": "/covers/david-bowie-heroes-era.jpg",
+    "cover": "/covers/david-bowie-aladdin-sane-era.jpg",
     "playUrl": "https://open.spotify.com/search/David%20Bowie%20Heroes",
     "buyUrl": "https://www.amazon.de/s?k=David+Bowie+Heroes+vinyl"
   },
@@ -4176,7 +4176,7 @@ export default [
       "Dreams",
       "Go Your Own Way"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-dominance.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Fleetwood%20Mac%20Rumours",
     "buyUrl": "https://www.amazon.de/s?k=Fleetwood+Mac+Rumours+vinyl"
   },
@@ -4193,7 +4193,7 @@ export default [
       "Baba O'Riley",
       "Won't Get Fooled Again"
     ],
-    "cover": "/covers/the-who-who-s-next-impact.jpg",
+    "cover": "/covers/the-who-quadrophenia-era.jpg",
     "playUrl": "https://open.spotify.com/search/Whos%20Next",
     "buyUrl": "https://www.amazon.de/s?k=Whos+Next+vinyl"
   },
@@ -4209,7 +4209,7 @@ export default [
     "songs": [
       "Wish You Were Here"
     ],
-    "cover": "/covers/pink-floyd-wish-you-were-here-legacy.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/Wish%20You%20Were%20Here",
     "buyUrl": "https://www.amazon.de/s?k=Wish+You+Were+Here+vinyl"
   },
@@ -4226,7 +4226,7 @@ export default [
       "Bad Moon Rising",
       "Fortunate Son"
     ],
-    "cover": "/covers/creedence-clearwater-revival-ccr-peak-era.jpg",
+    "cover": "/covers/creedence-clearwater-revival-bayou-country.jpg",
     "playUrl": "https://open.spotify.com/search/CCR",
     "buyUrl": "https://www.amazon.de/s?k=CCR+vinyl"
   },
@@ -4242,7 +4242,7 @@ export default [
     "songs": [
       "More Than a Feeling"
     ],
-    "cover": "/covers/boston-boston-explosion.jpg",
+    "cover": "/covers/boston-aor-breakthrough-imminent.jpg",
     "playUrl": "https://open.spotify.com/search/Boston%20Boston",
     "buyUrl": "https://www.amazon.de/s?k=Boston+vinyl"
   },
@@ -4259,7 +4259,7 @@ export default [
       "Starman",
       "Ziggy Stardust"
     ],
-    "cover": "/covers/david-bowie-ziggy-stardust-era.jpg",
+    "cover": "/covers/david-bowie-aladdin-sane-era.jpg",
     "playUrl": "https://open.spotify.com/search/Ziggy%20Stardust",
     "buyUrl": "https://www.amazon.de/s?k=Ziggy+Stardust+vinyl"
   },
@@ -4311,7 +4311,7 @@ export default [
       "Little Wing",
       "Hey Joe"
     ],
-    "cover": "/covers/jimi-hendrix-legacy.jpg",
+    "cover": "/covers/jimi-hendrix-death.jpg",
     "playUrl": "https://open.spotify.com/search/Jimi%20Hendrix",
     "buyUrl": "https://www.amazon.de/s?k=Jimi+Hendrix+vinyl"
   },
@@ -4327,7 +4327,7 @@ export default [
     "songs": [
       "Me and Bobby McGee"
     ],
-    "cover": "/covers/janis-joplin-pearl-era.jpg",
+    "cover": "/covers/janis-joplin-birthday.jpg",
     "playUrl": "https://open.spotify.com/search/Janis%20Joplin%20Pearl",
     "buyUrl": "https://www.amazon.de/s?k=Janis+Joplin+Pearl+vinyl"
   },
@@ -4343,7 +4343,7 @@ export default [
     "songs": [
       "Fame"
     ],
-    "cover": "/covers/david-bowie-fame-breakthrough.jpg",
+    "cover": "/covers/david-bowie-aladdin-sane-era.jpg",
     "playUrl": "https://open.spotify.com/search/David%20Bowie%20Fame",
     "buyUrl": "https://www.amazon.de/s?k=David+Bowie+vinyl"
   },
@@ -4359,7 +4359,7 @@ export default [
     "songs": [
       "Angie"
     ],
-    "cover": "/covers/the-rolling-stones-goats-head-soup-era.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Goats%20Head%20Soup",
     "buyUrl": "https://www.amazon.de/s?k=Goats+Head+Soup+vinyl"
   },
@@ -4375,7 +4375,7 @@ export default [
     "songs": [
       "Young Americans"
     ],
-    "cover": "/covers/david-bowie-young-americans-peak.jpg",
+    "cover": "/covers/david-bowie-aladdin-sane-era.jpg",
     "playUrl": "https://open.spotify.com/search/Young%20Americans",
     "buyUrl": "https://www.amazon.de/s?k=Young+Americans+vinyl"
   },
@@ -4442,7 +4442,7 @@ export default [
       "Come Together",
       "Here Comes the Sun"
     ],
-    "cover": "/covers/the-beatles-abbey-road-release.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/Abbey%20Road",
     "buyUrl": "https://www.amazon.de/s?k=Abbey+Road+vinyl"
   },
@@ -4458,7 +4458,7 @@ export default [
     "songs": [
       "Message in a Bottle"
     ],
-    "cover": "/covers/the-police-reggatta-de-blanc-era.jpg",
+    "cover": "/covers/the-police-outlandos-d-amour-era.jpg",
     "playUrl": "https://open.spotify.com/search/Reggatta%20de%20Blanc",
     "buyUrl": "https://www.amazon.de/s?k=Police+Reggatta+vinyl"
   },
@@ -4474,7 +4474,7 @@ export default [
     "songs": [
       "More Than a Feeling"
     ],
-    "cover": "/covers/boston-boston-legacy.jpg",
+    "cover": "/covers/boston-aor-breakthrough-imminent.jpg",
     "playUrl": "https://open.spotify.com/search/Boston%20Boston",
     "buyUrl": "https://www.amazon.de/s?k=Boston+vinyl"
   },
@@ -4490,7 +4490,7 @@ export default [
     "songs": [
       "Highway to Hell"
     ],
-    "cover": "/covers/ac-dc-highway-to-hell-era.jpg",
+    "cover": "/covers/ac-dc-back-in-black-build-up.jpg",
     "playUrl": "https://open.spotify.com/search/Highway%20to%20Hell",
     "buyUrl": "https://www.amazon.de/s?k=Highway+to+Hell+vinyl"
   },
@@ -4507,7 +4507,7 @@ export default [
       "The Chain",
       "Dreams"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-enduring-impact.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Fleetwood%20Mac%20Rumours",
     "buyUrl": "https://www.amazon.de/s?k=Fleetwood+Mac+Rumours+vinyl"
   },
@@ -4523,7 +4523,7 @@ export default [
     "songs": [
       "Whole Lotta Love"
     ],
-    "cover": "/covers/led-zeppelin-led-zeppelin-ii-sessions.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Led%20Zeppelin%20II",
     "buyUrl": "https://www.amazon.de/s?k=Led+Zeppelin+II+vinyl"
   },
@@ -4539,7 +4539,7 @@ export default [
     "songs": [
       "Imagine"
     ],
-    "cover": "/covers/john-lennon-imagine-era.jpg",
+    "cover": "/covers/john-lennon-death.jpg",
     "playUrl": "https://open.spotify.com/search/John%20Lennon%20Imagine",
     "buyUrl": "https://www.amazon.de/s?k=Imagine+vinyl"
   },
@@ -4555,7 +4555,7 @@ export default [
     "songs": [
       "Born to Run"
     ],
-    "cover": "/covers/bruce-springsteen-born-to-run-impact.jpg",
+    "cover": "/covers/bruce-springsteen-born-in-the-u-s-a-.jpg",
     "playUrl": "https://open.spotify.com/search/Born%20to%20Run",
     "buyUrl": "https://www.amazon.de/s?k=Born+to+Run+vinyl"
   },
@@ -4571,7 +4571,7 @@ export default [
     "songs": [
       "Piece of My Heart"
     ],
-    "cover": "/covers/janis-joplin-death.jpg",
+    "cover": "/covers/janis-joplin-birthday.jpg",
     "playUrl": "https://open.spotify.com/search/Janis%20Joplin",
     "buyUrl": "https://www.amazon.de/s?k=Janis+Joplin+vinyl"
   },
@@ -4587,7 +4587,7 @@ export default [
     "songs": [
       "Gimme Shelter"
     ],
-    "cover": "/covers/the-rolling-stones-let-it-bleed-era.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Let%20It%20Bleed",
     "buyUrl": "https://www.amazon.de/s?k=Let+It+Bleed+vinyl"
   },
@@ -4603,7 +4603,7 @@ export default [
     "songs": [
       "American Girl"
     ],
-    "cover": "/covers/tom-petty-breakthrough-phase.jpg",
+    "cover": "/covers/tom-petty-and-the-heartbreakers-damn-the-torpedoes.jpg",
     "playUrl": "https://open.spotify.com/search/Tom%20Petty",
     "buyUrl": "https://www.amazon.de/s?k=Tom+Petty+vinyl"
   },
@@ -4619,7 +4619,7 @@ export default [
     "songs": [
       "Let There Be Rock"
     ],
-    "cover": "/covers/ac-dc-let-there-be-rock-era.jpg",
+    "cover": "/covers/ac-dc-back-in-black-build-up.jpg",
     "playUrl": "https://open.spotify.com/search/ACDC%20Let%20There%20Be%20Rock",
     "buyUrl": "https://www.amazon.de/s?k=ACDC+Let+There+Be+Rock+vinyl"
   },
@@ -4635,7 +4635,7 @@ export default [
     "songs": [
       "Baba O'Riley"
     ],
-    "cover": "/covers/the-who-who-s-next-legacy.jpg",
+    "cover": "/covers/the-who-quadrophenia-era.jpg",
     "playUrl": "https://open.spotify.com/search/Whos%20Next",
     "buyUrl": "https://www.amazon.de/s?k=Whos+Next+vinyl"
   },
@@ -4651,7 +4651,7 @@ export default [
     "songs": [
       "Imagine"
     ],
-    "cover": "/covers/john-lennon-imagine-release.jpg",
+    "cover": "/covers/john-lennon-death.jpg",
     "playUrl": "https://open.spotify.com/search/Imagine",
     "buyUrl": "https://www.amazon.de/s?k=Imagine+vinyl"
   },
@@ -4667,7 +4667,7 @@ export default [
     "songs": [
       "Eruption"
     ],
-    "cover": "/covers/van-halen-van-halen-impact.jpg",
+    "cover": "/covers/van-halen-1984.jpg",
     "playUrl": "https://open.spotify.com/search/Van%20Halen",
     "buyUrl": "https://www.amazon.de/s?k=Van+Halen+vinyl"
   },
@@ -4683,7 +4683,7 @@ export default [
     "songs": [
       "Bohemian Rhapsody"
     ],
-    "cover": "/covers/queen-opera-era.jpg",
+    "cover": "/covers/queen-a-night-at-the-opera-era.jpg",
     "playUrl": "https://open.spotify.com/search/Queen%20Opera",
     "buyUrl": "https://www.amazon.de/s?k=Queen+Opera+vinyl"
   },
@@ -4699,7 +4699,7 @@ export default [
     "songs": [
       "Another Brick in the Wall"
     ],
-    "cover": "/covers/pink-floyd-the-wall-era.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Wall",
     "buyUrl": "https://www.amazon.de/s?k=The+Wall+vinyl"
   },
@@ -4715,7 +4715,7 @@ export default [
     "songs": [
       "Angie"
     ],
-    "cover": "/covers/the-rolling-stones-angie-success.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Angie",
     "buyUrl": "https://www.amazon.de/s?k=Rolling+Stones+vinyl"
   },
@@ -4731,7 +4731,7 @@ export default [
     "songs": [
       "Dreams"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-legacy.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Rumours",
     "buyUrl": "https://www.amazon.de/s?k=Fleetwood+Mac+Rumours+vinyl"
   },
@@ -4763,7 +4763,7 @@ export default [
     "songs": [
       "Brown Sugar"
     ],
-    "cover": "/covers/the-rolling-stones-sticky-fingers-momentum.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Sticky%20Fingers",
     "buyUrl": "https://www.amazon.de/s?k=Sticky+Fingers+vinyl"
   },
@@ -4779,7 +4779,7 @@ export default [
     "songs": [
       "Supernaut"
     ],
-    "cover": "/covers/black-sabbath-vol-4-era.jpg",
+    "cover": "/covers/black-sabbath-black-sabbath.jpg",
     "playUrl": "https://open.spotify.com/search/Black%20Sabbath%20Vol%204",
     "buyUrl": "https://www.amazon.de/s?k=Black+Sabbath+Vol+4+vinyl"
   },
@@ -4811,7 +4811,7 @@ export default [
     "songs": [
       "Over the Mountain"
     ],
-    "cover": "/covers/ozzy-osbourne-diary-of-a-madman-era.jpg",
+    "cover": "/covers/ozzy-osbourne-blizzard-of-ozz-build-up.jpg",
     "playUrl": "https://open.spotify.com/search/Ozzy%20Osbourne%20Diary%20of%20a%20Madman",
     "buyUrl": "https://www.amazon.de/s?k=Ozzy+Diary+of+a+Madman+vinyl"
   },
@@ -4860,7 +4860,7 @@ export default [
     "songs": [
       "Communication Breakdown"
     ],
-    "cover": "/covers/led-zeppelin-formation.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Led%20Zeppelin",
     "buyUrl": "https://www.amazon.de/s?k=Led+Zeppelin+vinyl"
   },
@@ -4876,7 +4876,7 @@ export default [
     "songs": [
       "Immigrant Song"
     ],
-    "cover": "/covers/led-zeppelin-iii-era.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Led%20Zeppelin%20III",
     "buyUrl": "https://www.amazon.de/s?k=Led+Zeppelin+III+vinyl"
   },
@@ -4893,7 +4893,7 @@ export default [
       "Back in Black",
       "Hells Bells"
     ],
-    "cover": "/covers/ac-dc-back-in-black-era.jpg",
+    "cover": "/covers/ac-dc-back-in-black-build-up.jpg",
     "playUrl": "https://open.spotify.com/search/Back%20in%20Black",
     "buyUrl": "https://www.amazon.de/s?k=Back+in+Black+vinyl"
   },
@@ -4909,7 +4909,7 @@ export default [
     "songs": [
       "Come Together"
     ],
-    "cover": "/covers/the-beatles-abbey-road-legacy.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/Abbey%20Road",
     "buyUrl": "https://www.amazon.de/s?k=Abbey+Road+vinyl"
   },
@@ -4925,7 +4925,7 @@ export default [
     "songs": [
       "Another Brick in the Wall"
     ],
-    "cover": "/covers/pink-floyd-the-wall-release.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Wall",
     "buyUrl": "https://www.amazon.de/s?k=The+Wall+vinyl"
   },
@@ -4941,7 +4941,7 @@ export default [
     "songs": [
       "Bohemian Rhapsody"
     ],
-    "cover": "/covers/queen-bohemian-rhapsody-release.jpg",
+    "cover": "/covers/queen-a-night-at-the-opera-era.jpg",
     "playUrl": "https://open.spotify.com/search/Bohemian%20Rhapsody",
     "buyUrl": "https://www.amazon.de/s?k=Queen+vinyl"
   },
@@ -4973,7 +4973,7 @@ export default [
     "songs": [
       "Tiny Dancer"
     ],
-    "cover": "/covers/elton-john-madman-across-the-water-era.jpg",
+    "cover": "/covers/elton-john-goodbye-yellow-brick-road-era.jpg",
     "playUrl": "https://open.spotify.com/search/Elton%20John",
     "buyUrl": "https://www.amazon.de/s?k=Elton+John+vinyl"
   },
@@ -4989,7 +4989,7 @@ export default [
     "songs": [
       "Rock and Roll All Nite"
     ],
-    "cover": "/covers/kiss-alive-ii-era.jpg",
+    "cover": "/covers/kiss-alive-era.jpg",
     "playUrl": "https://open.spotify.com/search/Kiss",
     "buyUrl": "https://www.amazon.de/s?k=Kiss+vinyl"
   },
@@ -5021,7 +5021,7 @@ export default [
     "songs": [
       "While My Guitar Gently Weeps"
     ],
-    "cover": "/covers/the-beatles-white-album-release.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/White%20Album%20Beatles",
     "buyUrl": "https://www.amazon.de/s?k=White+Album+Beatles+vinyl"
   },
@@ -5037,7 +5037,7 @@ export default [
     "songs": [
       "Don't Stop Me Now"
     ],
-    "cover": "/covers/queen-jazz-era.jpg",
+    "cover": "/covers/queen-a-night-at-the-opera-era.jpg",
     "playUrl": "https://open.spotify.com/search/Queen%20Jazz",
     "buyUrl": "https://www.amazon.de/s?k=Queen+Jazz+vinyl"
   },
@@ -5053,7 +5053,7 @@ export default [
     "songs": [
       "Dreams"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-peak.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Rumours",
     "buyUrl": "https://www.amazon.de/s?k=Fleetwood+Mac+Rumours+vinyl"
   },
@@ -5069,7 +5069,7 @@ export default [
     "songs": [
       "What's Your Name"
     ],
-    "cover": "/covers/lynyrd-skynyrd-street-survivors-release.jpg",
+    "cover": "/covers/lynyrd-skynyrd-plane-crash-tragedy.jpg",
     "playUrl": "https://open.spotify.com/search/Street%20Survivors",
     "buyUrl": "https://www.amazon.de/s?k=Street+Survivors+vinyl"
   },
@@ -5085,7 +5085,7 @@ export default [
     "songs": [
       "More Than a Feeling"
     ],
-    "cover": "/covers/boston-boston-success.jpg",
+    "cover": "/covers/boston-aor-breakthrough-imminent.jpg",
     "playUrl": "https://open.spotify.com/search/Boston",
     "buyUrl": "https://www.amazon.de/s?k=Boston+vinyl"
   },
@@ -5101,7 +5101,7 @@ export default [
     "songs": [
       "Rock 'n' Roll Damnation"
     ],
-    "cover": "/covers/ac-dc-powerage-era.jpg",
+    "cover": "/covers/ac-dc-back-in-black-build-up.jpg",
     "playUrl": "https://open.spotify.com/search/ACDC%20Powerage",
     "buyUrl": "https://www.amazon.de/s?k=ACDC+Powerage+vinyl"
   },
@@ -5117,7 +5117,7 @@ export default [
     "songs": [
       "Thunder Road"
     ],
-    "cover": "/covers/bruce-springsteen-born-to-run-momentum.jpg",
+    "cover": "/covers/bruce-springsteen-born-in-the-u-s-a-.jpg",
     "playUrl": "https://open.spotify.com/search/Born%20to%20Run",
     "buyUrl": "https://www.amazon.de/s?k=Born+to+Run+vinyl"
   },
@@ -5133,7 +5133,7 @@ export default [
     "songs": [
       "Stairway to Heaven"
     ],
-    "cover": "/covers/led-zeppelin-iv-dominance.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Led%20Zeppelin%20IV",
     "buyUrl": "https://www.amazon.de/s?k=Led+Zeppelin+IV+vinyl"
   },
@@ -5149,7 +5149,7 @@ export default [
     "songs": [
       "People Are Strange"
     ],
-    "cover": "/covers/the-doors-strange-days-era.jpg",
+    "cover": "/covers/the-doors-jim-morrison-death.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Doors",
     "buyUrl": "https://www.amazon.de/s?k=The+Doors+vinyl"
   },
@@ -5165,7 +5165,7 @@ export default [
     "songs": [
       "Bohemian Rhapsody"
     ],
-    "cover": "/covers/queen-a-night-at-the-opera-release.jpg",
+    "cover": "/covers/queen-a-night-at-the-opera-era.jpg",
     "playUrl": "https://open.spotify.com/search/A%20Night%20at%20the%20Opera",
     "buyUrl": "https://www.amazon.de/s?k=Queen+Opera+vinyl"
   },
@@ -5197,7 +5197,7 @@ export default [
     "songs": [
       "Purple Rain"
     ],
-    "cover": "/covers/prince-purple-rain-era.jpg",
+    "cover": "/covers/prince-1999-era.jpg",
     "playUrl": "https://open.spotify.com/search/Purple%20Rain",
     "buyUrl": "https://www.amazon.de/s?k=Purple+Rain+vinyl"
   },
@@ -5213,7 +5213,7 @@ export default [
     "songs": [
       "My Best Friend's Girl"
     ],
-    "cover": "/covers/the-cars-the-cars-success.jpg",
+    "cover": "/covers/the-cars-new-wave-rise.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Cars",
     "buyUrl": "https://www.amazon.de/s?k=The+Cars+vinyl"
   },
@@ -5229,7 +5229,7 @@ export default [
     "songs": [
       "Anarchy in the U.K."
     ],
-    "cover": "/covers/sex-pistols-never-mind-the-bollocks-era.jpg",
+    "cover": "/covers/sex-pistols-anarchy-in-the-uk.jpg",
     "playUrl": "https://open.spotify.com/search/Sex%20Pistols",
     "buyUrl": "https://www.amazon.de/s?k=Sex+Pistols+vinyl"
   },
@@ -5245,7 +5245,7 @@ export default [
     "songs": [
       "The Chain"
     ],
-    "cover": "/covers/fleetwood-mac-rumours-longevity.jpg",
+    "cover": "/covers/fleetwood-mac-band-reboot-era.jpg",
     "playUrl": "https://open.spotify.com/search/Rumours",
     "buyUrl": "https://www.amazon.de/s?k=Fleetwood+Mac+Rumours+vinyl"
   },
@@ -5293,7 +5293,7 @@ export default [
     "songs": [
       "Ain't Talkin' 'Bout Love"
     ],
-    "cover": "/covers/van-halen-van-halen-momentum.jpg",
+    "cover": "/covers/van-halen-1984.jpg",
     "playUrl": "https://open.spotify.com/search/Van%20Halen",
     "buyUrl": "https://www.amazon.de/s?k=Van+Halen+vinyl"
   },
@@ -5310,7 +5310,7 @@ export default [
       "Billie Jean",
       "Thriller"
     ],
-    "cover": "/covers/michael-jackson-thriller-release.jpg",
+    "cover": "/covers/michael-jackson-thriller-dominance.jpg",
     "playUrl": "https://open.spotify.com/search/Thriller",
     "buyUrl": "https://www.amazon.de/s?k=Thriller+vinyl"
   },
@@ -5342,7 +5342,7 @@ export default [
     "songs": [
       "Hurricane"
     ],
-    "cover": "/covers/bob-dylan-rolling-thunder-revue.jpg",
+    "cover": "/covers/bob-dylan-birthday.jpg",
     "playUrl": "https://open.spotify.com/search/Bob%20Dylan",
     "buyUrl": "https://www.amazon.de/s?k=Bob+Dylan+vinyl"
   },
@@ -5358,7 +5358,7 @@ export default [
     "songs": [
       "Helter Skelter"
     ],
-    "cover": "/covers/the-beatles-white-album-impact.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/White%20Album",
     "buyUrl": "https://www.amazon.de/s?k=White+Album+Beatles+vinyl"
   },
@@ -5375,7 +5375,7 @@ export default [
       "Paranoid",
       "Iron Man"
     ],
-    "cover": "/covers/black-sabbath-paranoid-legacy.jpg",
+    "cover": "/covers/black-sabbath-black-sabbath.jpg",
     "playUrl": "https://open.spotify.com/search/Black%20Sabbath%20Paranoid",
     "buyUrl": "https://www.amazon.de/s?k=Paranoid+vinyl"
   },
@@ -5424,7 +5424,7 @@ export default [
     "songs": [
       "Beat It"
     ],
-    "cover": "/covers/michael-jackson-thriller-impact.jpg",
+    "cover": "/covers/michael-jackson-thriller-dominance.jpg",
     "playUrl": "https://open.spotify.com/search/Beat%20It",
     "buyUrl": "https://www.amazon.de/s?k=Thriller+vinyl"
   },
@@ -5440,7 +5440,7 @@ export default [
     "songs": [
       "My Sweet Lord"
     ],
-    "cover": "/covers/george-harrison-all-things-must-pass-release.jpg",
+    "cover": "/covers/george-harrison-all-things-must-pass-impact.jpg",
     "playUrl": "https://open.spotify.com/search/All%20Things%20Must%20Pass",
     "buyUrl": "https://www.amazon.de/s?k=George+Harrison+vinyl"
   },
@@ -5456,7 +5456,7 @@ export default [
     "songs": [
       "Kashmir"
     ],
-    "cover": "/covers/led-zeppelin-physical-graffiti-era.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Physical%20Graffiti",
     "buyUrl": "https://www.amazon.de/s?k=Physical+Graffiti+vinyl"
   },
@@ -5472,7 +5472,7 @@ export default [
     "songs": [
       "Comfortably Numb"
     ],
-    "cover": "/covers/pink-floyd-the-wall-impact.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/Comfortably%20Numb",
     "buyUrl": "https://www.amazon.de/s?k=The+Wall+vinyl"
   },
@@ -5488,7 +5488,7 @@ export default [
     "songs": [
       "1999"
     ],
-    "cover": "/covers/prince-1999-release.jpg",
+    "cover": "/covers/prince-1999-era.jpg",
     "playUrl": "https://open.spotify.com/search/Prince%201999",
     "buyUrl": "https://www.amazon.de/s?k=Prince+1999+vinyl"
   },
@@ -5504,7 +5504,7 @@ export default [
     "songs": [
       "Hotel California"
     ],
-    "cover": "/covers/the-eagles-hotel-california-release.jpg",
+    "cover": "/covers/the-eagles-hotel-california-era.jpg",
     "playUrl": "https://open.spotify.com/search/Hotel%20California",
     "buyUrl": "https://www.amazon.de/s?k=Hotel+California+vinyl"
   },
@@ -5536,7 +5536,7 @@ export default [
     "songs": [
       "In My Life"
     ],
-    "cover": "/covers/the-beatles-rubber-soul-era.jpg",
+    "cover": "/covers/the-beatles-abbey-road-cover-shoot.jpg",
     "playUrl": "https://open.spotify.com/search/Rubber%20Soul",
     "buyUrl": "https://www.amazon.de/s?k=Rubber+Soul+vinyl"
   },
@@ -5552,7 +5552,7 @@ export default [
     "songs": [
       "Smoke on the Water"
     ],
-    "cover": "/covers/deep-purple-machine-head-era.jpg",
+    "cover": "/covers/deep-purple-in-rock-impact.jpg",
     "playUrl": "https://open.spotify.com/search/Deep%20Purple",
     "buyUrl": "https://www.amazon.de/s?k=Deep+Purple+vinyl"
   },
@@ -5568,7 +5568,7 @@ export default [
     "songs": [
       "Sympathy for the Devil"
     ],
-    "cover": "/covers/the-rolling-stones-altamont-concert.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Rolling%20Stones",
     "buyUrl": "https://www.amazon.de/s?k=Rolling+Stones+vinyl"
   },
@@ -5600,7 +5600,7 @@ export default [
     "songs": [
       "Whole Lotta Love"
     ],
-    "cover": "/covers/led-zeppelin-early-dominance.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Led%20Zeppelin",
     "buyUrl": "https://www.amazon.de/s?k=Led+Zeppelin+vinyl"
   },
@@ -5681,7 +5681,7 @@ export default [
     "songs": [
       "Bohemian Rhapsody"
     ],
-    "cover": "/covers/queen-bohemian-rhapsody-no-1.jpg",
+    "cover": "/covers/queen-a-night-at-the-opera-era.jpg",
     "playUrl": "https://open.spotify.com/search/Bohemian%20Rhapsody",
     "buyUrl": "https://www.amazon.de/s?k=Queen+vinyl"
   },
@@ -5729,7 +5729,7 @@ export default [
     "songs": [
       "Badlands"
     ],
-    "cover": "/covers/bruce-springsteen-darkness-on-the-edge-of-town.jpg",
+    "cover": "/covers/bruce-springsteen-born-in-the-u-s-a-.jpg",
     "playUrl": "https://open.spotify.com/search/Springsteen",
     "buyUrl": "https://www.amazon.de/s?k=Springsteen+vinyl"
   },
@@ -5745,7 +5745,7 @@ export default [
     "songs": [
       "Heroes"
     ],
-    "cover": "/covers/david-bowie-heroes-era.jpg",
+    "cover": "/covers/david-bowie-aladdin-sane-era.jpg",
     "playUrl": "https://open.spotify.com/search/David%20Bowie%20Heroes",
     "buyUrl": "https://www.amazon.de/s?k=David+Bowie+vinyl"
   },
@@ -5777,7 +5777,7 @@ export default [
     "songs": [
       "Brown Sugar"
     ],
-    "cover": "/covers/the-rolling-stones-sticky-fingers-era.jpg",
+    "cover": "/covers/the-rolling-stones-altamont-aftermath.jpg",
     "playUrl": "https://open.spotify.com/search/Rolling%20Stones",
     "buyUrl": "https://www.amazon.de/s?k=Rolling+Stones+vinyl"
   },
@@ -5793,7 +5793,7 @@ export default [
     "songs": [
       "Flying High Again"
     ],
-    "cover": "/covers/ozzy-osbourne-diary-of-a-madman-era.jpg",
+    "cover": "/covers/ozzy-osbourne-blizzard-of-ozz-build-up.jpg",
     "playUrl": "https://open.spotify.com/search/Ozzy%20Osbourne",
     "buyUrl": "https://www.amazon.de/s?k=Ozzy+Osbourne+vinyl"
   },
@@ -5825,7 +5825,7 @@ export default [
     "songs": [
       "Highway to Hell"
     ],
-    "cover": "/covers/ac-dc-highway-to-hell-impact.jpg",
+    "cover": "/covers/ac-dc-back-in-black-build-up.jpg",
     "playUrl": "https://open.spotify.com/search/Highway%20to%20Hell",
     "buyUrl": "https://www.amazon.de/s?k=ACDC+vinyl"
   },
@@ -5889,7 +5889,7 @@ export default [
     "songs": [
       "War Pigs"
     ],
-    "cover": "/covers/black-sabbath-paranoid-era.jpg",
+    "cover": "/covers/black-sabbath-black-sabbath.jpg",
     "playUrl": "https://open.spotify.com/search/Black%20Sabbath",
     "buyUrl": "https://www.amazon.de/s?k=Black+Sabbath+vinyl"
   },
@@ -5921,7 +5921,7 @@ export default [
     "songs": [
       "Back in Black"
     ],
-    "cover": "/covers/ac-dc-back-in-black-era.jpg",
+    "cover": "/covers/ac-dc-back-in-black-build-up.jpg",
     "playUrl": "https://open.spotify.com/search/Back%20in%20Black",
     "buyUrl": "https://www.amazon.de/s?k=ACDC+Back+in+Black+vinyl"
   },
@@ -5937,7 +5937,7 @@ export default [
     "songs": [
       "More Than a Feeling"
     ],
-    "cover": "/covers/boston-boston-album-impact.jpg",
+    "cover": "/covers/boston-aor-breakthrough-imminent.jpg",
     "playUrl": "https://open.spotify.com/search/Boston",
     "buyUrl": "https://www.amazon.de/s?k=Boston+vinyl"
   },
@@ -5953,7 +5953,7 @@ export default [
     "songs": [
       "Black Dog"
     ],
-    "cover": "/covers/led-zeppelin-iv-legacy.jpg",
+    "cover": "/covers/john-bonham-led-zeppelin--death.jpg",
     "playUrl": "https://open.spotify.com/search/Led%20Zeppelin%20IV",
     "buyUrl": "https://www.amazon.de/s?k=Led+Zeppelin+vinyl"
   },
@@ -5969,7 +5969,7 @@ export default [
     "songs": [
       "We Will Rock You"
     ],
-    "cover": "/covers/queen-news-of-the-world-era.jpg",
+    "cover": "/covers/queen-a-night-at-the-opera-era.jpg",
     "playUrl": "https://open.spotify.com/search/Queen",
     "buyUrl": "https://www.amazon.de/s?k=Queen+vinyl"
   },
@@ -5985,7 +5985,7 @@ export default [
     "songs": [
       "Another Brick in the Wall"
     ],
-    "cover": "/covers/pink-floyd-the-wall-year-end.jpg",
+    "cover": "/covers/pink-floyd-animals-era.jpg",
     "playUrl": "https://open.spotify.com/search/The%20Wall",
     "buyUrl": "https://www.amazon.de/s?k=Pink+Floyd+The+Wall+vinyl"
   }
