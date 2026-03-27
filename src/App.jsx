@@ -1,30 +1,69 @@
-import React, { useEffect, useState } from "react";
+import React, { useMemo, useState } from "react";
+import rockCalendarData from "./data/rockCalendarData";
 
-const today = {
-  brand: "THE ROCK CALENDAR",
-  day: "14",
-  monthYear: "03 · 1973",
-  artist: "PINK FLOYD",
-  title: "THE DARK SIDE OF THE MOON",
-  type: "RELEASE",
-  text: "Pink Floyd veröffentlichen The Dark Side of the Moon — ein Monument der Albumgeschichte und einer der größten Meilensteine des Classic Rock.",
-  songs: ["Time", "Money", "Us and Them"],
-  cover:
-    "https://m.media-amazon.com/images/I/31%2BszRBlJyL._SY300_SX300_QL70_ML2_.jpg",
-  playUrl:
-    "https://open.spotify.com/search/Pink%20Floyd%20The%20Dark%20Side%20of%20the%20Moon",
-  buyUrl:
-    "https://www.amazon.de/Dark-Side-Moon-Vinyl-LP/dp/B01LTHN0DG",
-};
+function isLeapYear(year) {
+  return year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
+}
+
+function sortEntries(entries) {
+  return [...entries].sort((a, b) => {
+    if (a.month !== b.month) return a.month - b.month;
+    return a.day - b.day;
+  });
+}
+
+function formatDate(day, month, year) {
+  const dd = String(day).padStart(2, "0");
+  const mm = String(month).padStart(2, "0");
+  return `${dd}.${mm}.${year}`;
+}
+
+function getInitialIndex(entries, now) {
+  const month = now.getMonth() + 1;
+  const day = now.getDate();
+
+  const exactIndex = entries.findIndex(
+    (entry) => entry.month === month && entry.day === day
+  );
+
+  if (exactIndex !== -1) return exactIndex;
+
+  const fallbackIndex = entries.findIndex(
+    (entry) =>
+      entry.month > month || (entry.month === month && entry.day >= day)
+  );
+
+  return fallbackIndex !== -1 ? fallbackIndex : 0;
+}
 
 export default function App() {
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
+  const now = new Date();
+  const currentYear = now.getFullYear();
 
-  useEffect(() => {
-    const onResize = () => setIsMobile(window.innerWidth < 900);
-    window.addEventListener("resize", onResize);
-    return () => window.removeEventListener("resize", onResize);
-  }, []);
+  const entries = useMemo(() => {
+    const sorted = sortEntries(rockCalendarData);
+
+    if (isLeapYear(currentYear)) return sorted;
+
+    return sorted.filter((entry) => !(entry.month === 2 && entry.day === 29));
+  }, [currentYear]);
+
+  const todayIndex = useMemo(() => getInitialIndex(entries, now), [entries]);
+  const [currentIndex, setCurrentIndex] = useState(todayIndex);
+
+  const entry = entries[currentIndex];
+
+  const goPrev = () => {
+    setCurrentIndex((prev) => (prev === 0 ? entries.length - 1 : prev - 1));
+  };
+
+  const goNext = () => {
+    setCurrentIndex((prev) => (prev === entries.length - 1 ? 0 : prev + 1));
+  };
+
+  const goToday = () => {
+    setCurrentIndex(todayIndex);
+  };
 
   return (
     <div
@@ -33,15 +72,15 @@ export default function App() {
         background:
           "radial-gradient(circle at top left, #24356b 0%, #10182d 34%, #070b16 62%, #04060d 100%)",
         color: "#fff",
-        padding: isMobile ? "12px" : "24px",
+        padding: "16px",
         fontFamily: "Inter, Arial, Helvetica, sans-serif",
       }}
     >
       <div
         style={{
-          maxWidth: "1450px",
+          maxWidth: "1400px",
           margin: "0 auto",
-          borderRadius: isMobile ? "22px" : "34px",
+          borderRadius: "28px",
           overflow: "hidden",
           border: "1px solid rgba(255,255,255,0.08)",
           background:
@@ -51,125 +90,128 @@ export default function App() {
       >
         <div
           style={{
-            padding: isMobile ? "14px 16px" : "18px 22px",
+            padding: "16px 20px",
             borderBottom: "1px solid rgba(255,255,255,0.07)",
-            fontSize: isMobile ? "12px" : "15px",
-            letterSpacing: isMobile ? "3px" : "4px",
-            textTransform: "uppercase",
-            fontWeight: 800,
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            gap: "12px",
+            flexWrap: "wrap",
           }}
         >
-          {today.brand}
+          <div
+            style={{
+              fontSize: "14px",
+              letterSpacing: "4px",
+              textTransform: "uppercase",
+              fontWeight: 800,
+            }}
+          >
+            The Rock Calendar
+          </div>
+
+          <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+            <button onClick={goPrev} style={navButtonStyle}>
+              ← Zurück
+            </button>
+            <button onClick={goToday} style={todayButtonStyle}>
+              Heute
+            </button>
+            <button onClick={goNext} style={navButtonStyle}>
+              Weiter →
+            </button>
+          </div>
         </div>
 
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: isMobile ? "1fr" : "1.1fr 0.9fr",
+            gridTemplateColumns: "1.1fr 0.9fr",
           }}
         >
-          <div style={{ padding: isMobile ? "22px 16px" : "42px 34px" }}>
+          <div style={{ padding: "34px 28px" }}>
             <div
               style={{
-                display: "flex",
-                gap: isMobile ? "12px" : "18px",
-                alignItems: "end",
-                flexWrap: "wrap",
+                fontSize: "18px",
+                letterSpacing: "3px",
+                opacity: 0.7,
+                marginBottom: "10px",
+                fontWeight: 700,
               }}
             >
-              <div
-                style={{
-                  fontSize: isMobile ? "88px" : "140px",
-                  fontWeight: 900,
-                  letterSpacing: isMobile ? "-4px" : "-6px",
-                  lineHeight: 0.9,
-                }}
-              >
-                {today.day}
-              </div>
-
-              <div style={{ paddingBottom: isMobile ? "10px" : "20px" }}>
-                <div
-                  style={{
-                    fontSize: isMobile ? "14px" : "18px",
-                    letterSpacing: isMobile ? "3px" : "4px",
-                    opacity: 0.7,
-                    fontWeight: 700,
-                  }}
-                >
-                  HEUTE
-                </div>
-                <div
-                  style={{
-                    fontSize: isMobile ? "28px" : "42px",
-                    fontWeight: 900,
-                    lineHeight: 1,
-                  }}
-                >
-                  {today.monthYear}
-                </div>
-              </div>
+              HEUTE IN DER ROCKGESCHICHTE
             </div>
 
             <div
               style={{
-                marginTop: "20px",
-                fontSize: isMobile ? "12px" : "14px",
-                letterSpacing: "3px",
-                opacity: 0.6,
-                fontWeight: 700,
+                fontSize: "58px",
+                fontWeight: 900,
+                lineHeight: 1,
+                marginBottom: "18px",
               }}
             >
-              {today.type}
+              {formatDate(entry.day, entry.month, entry.year)}
+            </div>
+
+            <div
+              style={{
+                fontSize: "14px",
+                letterSpacing: "3px",
+                opacity: 0.6,
+                marginBottom: "10px",
+              }}
+            >
+              {entry.type.toUpperCase()}
             </div>
 
             <h1
               style={{
-                fontSize: isMobile ? "54px" : "86px",
+                fontSize: "68px",
                 lineHeight: 0.95,
-                margin: "10px 0 0 0",
+                margin: "0 0 8px 0",
               }}
             >
-              {today.artist}
+              {entry.artist}
             </h1>
 
             <h2
               style={{
-                fontSize: isMobile ? "32px" : "48px",
-                lineHeight: 0.95,
-                margin: "0 0 20px 0",
+                fontSize: "38px",
+                lineHeight: 1,
+                margin: "0 0 18px 0",
               }}
             >
-              {today.title}
+              {entry.title}
             </h2>
 
             <p
               style={{
-                fontSize: isMobile ? "18px" : "22px",
+                fontSize: "22px",
                 lineHeight: 1.5,
-                maxWidth: "700px",
+                maxWidth: "760px",
                 marginBottom: "24px",
               }}
             >
-              {today.text}
+              {entry.text}
             </p>
 
             <div
               style={{
                 display: "flex",
                 gap: "10px",
-                marginTop: "20px",
                 flexWrap: "wrap",
+                marginBottom: "28px",
               }}
             >
-              {today.songs.map((song) => (
+              {entry.songs.map((song) => (
                 <div
                   key={song}
                   style={{
-                    padding: isMobile ? "9px 14px" : "10px 16px",
-                    borderRadius: "20px",
-                    border: "1px solid rgba(255,255,255,0.2)",
-                    fontSize: isMobile ? "13px" : "14px",
+                    padding: "10px 16px",
+                    borderRadius: "999px",
+                    border: "1px solid rgba(255,255,255,0.18)",
+                    fontSize: "14px",
+                    background: "rgba(255,255,255,0.03)",
                   }}
                 >
                   {song}
@@ -177,73 +219,47 @@ export default function App() {
               ))}
             </div>
 
-            <div
-              style={{
-                marginTop: "28px",
-                display: "flex",
-                gap: "15px",
-                flexWrap: "wrap",
-              }}
-            >
+            <div style={{ display: "flex", gap: "14px", flexWrap: "wrap" }}>
               <a
-                href={today.playUrl}
+                href={entry.playUrl}
                 target="_blank"
                 rel="noreferrer"
-                style={{
-                  padding: isMobile ? "16px 22px" : "18px 26px",
-                  background: "#fff",
-                  color: "#000",
-                  borderRadius: "14px",
-                  fontWeight: 800,
-                  textDecoration: "none",
-                  fontSize: isMobile ? "16px" : "18px",
-                }}
+                style={playButtonStyle}
               >
                 Play
               </a>
 
               <a
-                href={today.buyUrl}
+                href={entry.buyUrl}
                 target="_blank"
                 rel="noreferrer"
-                style={{
-                  padding: isMobile ? "18px 24px" : "22px 32px",
-                  background:
-                    "linear-gradient(135deg, #d2a44a 0%, #f2d07a 100%)",
-                  color: "#111",
-                  borderRadius: "18px",
-                  fontWeight: 900,
-                  fontSize: isMobile ? "18px" : "20px",
-                  textDecoration: "none",
-                }}
+                style={buyButtonStyle}
               >
-                Buy Now
+                Buy
               </a>
             </div>
           </div>
 
           <div
             style={{
-              padding: isMobile ? "0 16px 16px 16px" : "30px",
-              borderLeft: isMobile
-                ? "none"
-                : "1px solid rgba(255,255,255,0.06)",
-              borderTop: isMobile
-                ? "1px solid rgba(255,255,255,0.06)"
-                : "none",
+              padding: "28px",
+              borderLeft: "1px solid rgba(255,255,255,0.06)",
             }}
           >
             <div
               style={{
                 position: "relative",
-                borderRadius: isMobile ? "22px" : "28px",
+                borderRadius: "24px",
                 overflow: "hidden",
-                maxWidth: isMobile ? "100%" : "none",
+                background: "#111",
               }}
             >
               <img
-                src={today.cover}
-                alt={today.title}
+                src={entry.cover}
+                alt={entry.title}
+                onError={(e) => {
+                  e.currentTarget.src = "/placeholder.jpg";
+                }}
                 style={{
                   width: "100%",
                   aspectRatio: "1 / 1",
@@ -255,21 +271,21 @@ export default function App() {
               <div
                 style={{
                   position: "absolute",
-                  top: isMobile ? "14px" : "20px",
-                  right: isMobile ? "14px" : "20px",
-                  width: isMobile ? "92px" : "110px",
-                  height: isMobile ? "92px" : "110px",
-                  borderRadius: "50%",
+                  top: "18px",
+                  right: "18px",
+                  width: "104px",
+                  height: "104px",
+                  borderRadius: "999px",
                   background: "rgba(0,0,0,0.78)",
-                  border: "2px solid rgba(255,255,255,0.3)",
+                  border: "2px solid rgba(255,255,255,0.24)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
                   textAlign: "center",
-                  fontSize: isMobile ? "9px" : "11px",
+                  fontSize: "10px",
                   fontWeight: 900,
                   letterSpacing: "1px",
-                  lineHeight: "1.2",
+                  lineHeight: 1.2,
                   padding: "10px",
                 }}
               >
@@ -283,31 +299,31 @@ export default function App() {
                   position: "absolute",
                   bottom: 0,
                   width: "100%",
-                  padding: isMobile ? "16px" : "20px",
+                  padding: "18px",
                   background:
-                    "linear-gradient(to top, rgba(0,0,0,0.8), transparent)",
+                    "linear-gradient(to top, rgba(0,0,0,0.82), transparent)",
                 }}
               >
-                <div
-                  style={{
-                    fontSize: isMobile ? "22px" : "30px",
-                    fontWeight: 900,
-                  }}
-                >
-                  {today.day}.{today.monthYear.replace(" · ", ".")}
+                <div style={{ fontSize: "30px", fontWeight: 900 }}>
+                  {formatDate(entry.day, entry.month, entry.year)}
                 </div>
-                <div
-                  style={{
-                    fontWeight: 800,
-                    fontSize: isMobile ? "16px" : "18px",
-                  }}
-                >
-                  {today.artist}
+                <div style={{ fontWeight: 800, fontSize: "18px" }}>
+                  {entry.artist}
                 </div>
-                <div style={{ fontSize: isMobile ? "12px" : "14px" }}>
-                  {today.title}
+                <div style={{ fontSize: "14px", opacity: 0.92 }}>
+                  {entry.title}
                 </div>
               </div>
+            </div>
+
+            <div
+              style={{
+                marginTop: "16px",
+                fontSize: "14px",
+                opacity: 0.72,
+              }}
+            >
+              Eintrag {currentIndex + 1} von {entries.length}
             </div>
           </div>
         </div>
@@ -315,3 +331,41 @@ export default function App() {
     </div>
   );
 }
+
+const navButtonStyle = {
+  padding: "10px 14px",
+  borderRadius: "12px",
+  border: "1px solid rgba(255,255,255,0.14)",
+  background: "rgba(255,255,255,0.04)",
+  color: "#fff",
+  fontWeight: 700,
+  cursor: "pointer",
+};
+
+const todayButtonStyle = {
+  padding: "10px 16px",
+  borderRadius: "12px",
+  border: "1px solid rgba(255,255,255,0.14)",
+  background: "#fff",
+  color: "#000",
+  fontWeight: 800,
+  cursor: "pointer",
+};
+
+const playButtonStyle = {
+  padding: "16px 22px",
+  background: "#fff",
+  color: "#000",
+  borderRadius: "14px",
+  fontWeight: 800,
+  textDecoration: "none",
+};
+
+const buyButtonStyle = {
+  padding: "16px 22px",
+  background: "linear-gradient(135deg, #d2a44a 0%, #f2d07a 100%)",
+  color: "#111",
+  borderRadius: "14px",
+  fontWeight: 900,
+  textDecoration: "none",
+};
