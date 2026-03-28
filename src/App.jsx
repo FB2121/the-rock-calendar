@@ -48,6 +48,7 @@ function getDateFromUrl() {
 export default function App() {
   const now = new Date();
   const currentYear = now.getFullYear();
+  const isMobile = window.innerWidth < 900;
 
   const entries = useMemo(() => {
     const sorted = sortEntries(rockCalendarData);
@@ -77,7 +78,6 @@ export default function App() {
   }, [todayIndex]);
 
   const entry = entries[currentIndex];
-
   const imageSrc = `${window.location.origin}${entry.cover}`;
 
   const goPrev = () => {
@@ -99,7 +99,7 @@ export default function App() {
         background:
           "radial-gradient(circle at top left, #24356b 0%, #10182d 34%, #070b16 62%, #04060d 100%)",
         color: "#fff",
-        padding: "16px",
+        padding: isMobile ? "10px" : "16px",
         fontFamily: "Inter, Arial, Helvetica, sans-serif",
       }}
     >
@@ -117,7 +117,7 @@ export default function App() {
       >
         <div
           style={{
-            padding: "16px 20px",
+            padding: isMobile ? "14px" : "16px 20px",
             borderBottom: "1px solid rgba(255,255,255,0.07)",
             display: "flex",
             justifyContent: "space-between",
@@ -153,13 +153,13 @@ export default function App() {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "1.1fr 0.9fr",
+            gridTemplateColumns: isMobile ? "1fr" : "1.1fr 0.9fr",
           }}
         >
-          <div style={{ padding: "34px 28px" }}>
+          <div style={{ padding: isMobile ? "18px 16px" : "34px 28px" }}>
             <div
               style={{
-                fontSize: "18px",
+                fontSize: isMobile ? "14px" : "18px",
                 letterSpacing: "3px",
                 opacity: 0.7,
                 marginBottom: "10px",
@@ -171,7 +171,7 @@ export default function App() {
 
             <div
               style={{
-                fontSize: "58px",
+                fontSize: isMobile ? "36px" : "58px",
                 fontWeight: 900,
                 lineHeight: 1,
                 marginBottom: "18px",
@@ -193,7 +193,7 @@ export default function App() {
 
             <h1
               style={{
-                fontSize: "68px",
+                fontSize: isMobile ? "40px" : "68px",
                 lineHeight: 0.95,
                 margin: "0 0 8px 0",
               }}
@@ -203,7 +203,7 @@ export default function App() {
 
             <h2
               style={{
-                fontSize: "38px",
+                fontSize: isMobile ? "24px" : "38px",
                 lineHeight: 1,
                 margin: "0 0 18px 0",
               }}
@@ -213,7 +213,7 @@ export default function App() {
 
             <p
               style={{
-                fontSize: "22px",
+                fontSize: isMobile ? "18px" : "22px",
                 lineHeight: 1.5,
                 maxWidth: "760px",
                 marginBottom: "24px",
@@ -269,8 +269,9 @@ export default function App() {
 
           <div
             style={{
-              padding: "28px",
-              borderLeft: "1px solid rgba(255,255,255,0.06)",
+              padding: isMobile ? "0 16px 16px 16px" : "28px",
+              borderLeft: isMobile ? "none" : "1px solid rgba(255,255,255,0.06)",
+              borderTop: isMobile ? "1px solid rgba(255,255,255,0.06)" : "none",
             }}
           >
             <div
@@ -331,10 +332,10 @@ export default function App() {
                     "linear-gradient(to top, rgba(0,0,0,0.82), transparent)",
                 }}
               >
-                <div style={{ fontSize: "30px", fontWeight: 900 }}>
+                <div style={{ fontSize: isMobile ? "22px" : "30px", fontWeight: 900 }}>
                   {formatDate(entry.day, entry.month, entry.year)}
                 </div>
-                <div style={{ fontWeight: 800, fontSize: "18px" }}>
+                <div style={{ fontWeight: 800, fontSize: isMobile ? "16px" : "18px" }}>
                   {entry.artist}
                 </div>
                 <div style={{ fontSize: "14px", opacity: 0.92 }}>
