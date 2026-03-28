@@ -48,7 +48,13 @@ function getDateFromUrl() {
 export default function App() {
   const now = new Date();
   const currentYear = now.getFullYear();
-  const isMobile = window.innerWidth < 900;
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
+
+  useEffect(() => {
+    const onResize = () => setIsMobile(window.innerWidth < 900);
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, []);
 
   const entries = useMemo(() => {
     const sorted = sortEntries(rockCalendarData);
@@ -96,8 +102,7 @@ export default function App() {
     <div
       style={{
         minHeight: "100vh",
-        background:
-          "radial-gradient(circle at top left, #24356b 0%, #10182d 34%, #070b16 62%, #04060d 100%)",
+        background: "#0b1020",
         color: "#fff",
         padding: isMobile ? "10px" : "16px",
         fontFamily: "Inter, Arial, Helvetica, sans-serif",
@@ -152,11 +157,109 @@ export default function App() {
 
         <div
           style={{
-            display: "grid",
-            gridTemplateColumns: isMobile ? "1fr" : "1.1fr 0.9fr",
+            display: "flex",
+            flexDirection: isMobile ? "column" : "row",
           }}
         >
-          <div style={{ padding: isMobile ? "18px 16px" : "34px 28px" }}>
+          <div
+            style={{
+              width: isMobile ? "100%" : "42%",
+              order: isMobile ? 1 : 2,
+              padding: isMobile ? "16px 16px 0 16px" : "28px",
+              borderLeft: isMobile ? "none" : "1px solid rgba(255,255,255,0.06)",
+              borderBottom: isMobile
+                ? "1px solid rgba(255,255,255,0.06)"
+                : "none",
+            }}
+          >
+            <div
+              style={{
+                position: "relative",
+                borderRadius: "24px",
+                overflow: "hidden",
+                background: "#111",
+              }}
+            >
+              <img
+                src={imageSrc}
+                alt={entry.title}
+                onError={(e) => {
+                  e.currentTarget.src = `${window.location.origin}/placeholder.jpg`;
+                }}
+                style={{
+                  width: "100%",
+                  aspectRatio: "1 / 1",
+                  objectFit: "cover",
+                  display: "block",
+                }}
+              />
+
+              <div
+                style={{
+                  position: "absolute",
+                  top: "18px",
+                  right: "18px",
+                  width: "104px",
+                  height: "104px",
+                  borderRadius: "999px",
+                  background: "rgba(0,0,0,0.78)",
+                  border: "2px solid rgba(255,255,255,0.24)",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  textAlign: "center",
+                  fontSize: "10px",
+                  fontWeight: 900,
+                  letterSpacing: "1px",
+                  lineHeight: 1.2,
+                  padding: "10px",
+                }}
+              >
+                CLASSIC ROCK
+                <br />
+                APPROVED
+              </div>
+
+              <div
+                style={{
+                  position: "absolute",
+                  bottom: 0,
+                  width: "100%",
+                  padding: "18px",
+                  background:
+                    "linear-gradient(to top, rgba(0,0,0,0.82), transparent)",
+                }}
+              >
+                <div style={{ fontSize: isMobile ? "22px" : "30px", fontWeight: 900 }}>
+                  {formatDate(entry.day, entry.month, entry.year)}
+                </div>
+                <div style={{ fontWeight: 800, fontSize: isMobile ? "16px" : "18px" }}>
+                  {entry.artist}
+                </div>
+                <div style={{ fontSize: "14px", opacity: 0.92 }}>
+                  {entry.title}
+                </div>
+              </div>
+            </div>
+
+            <div
+              style={{
+                marginTop: "16px",
+                fontSize: "14px",
+                opacity: 0.72,
+              }}
+            >
+              Eintrag {currentIndex + 1} von {entries.length}
+            </div>
+          </div>
+
+          <div
+            style={{
+              width: isMobile ? "100%" : "58%",
+              order: isMobile ? 2 : 1,
+              padding: isMobile ? "18px 16px 24px 16px" : "34px 28px",
+            }}
+          >
             <div
               style={{
                 fontSize: isMobile ? "14px" : "18px",
@@ -264,94 +367,6 @@ export default function App() {
               >
                 Buy
               </a>
-            </div>
-          </div>
-
-          <div
-            style={{
-              padding: isMobile ? "0 16px 16px 16px" : "28px",
-              borderLeft: isMobile ? "none" : "1px solid rgba(255,255,255,0.06)",
-              borderTop: isMobile ? "1px solid rgba(255,255,255,0.06)" : "none",
-            }}
-          >
-            <div
-              style={{
-                position: "relative",
-                borderRadius: "24px",
-                overflow: "hidden",
-                background: "#111",
-              }}
-            >
-              <img
-                src={imageSrc}
-                alt={entry.title}
-                onError={(e) => {
-                  e.currentTarget.src = `${window.location.origin}/placeholder.jpg`;
-                }}
-                style={{
-                  width: "100%",
-                  aspectRatio: "1 / 1",
-                  objectFit: "cover",
-                  display: "block",
-                }}
-              />
-
-              <div
-                style={{
-                  position: "absolute",
-                  top: "18px",
-                  right: "18px",
-                  width: "104px",
-                  height: "104px",
-                  borderRadius: "999px",
-                  background: "rgba(0,0,0,0.78)",
-                  border: "2px solid rgba(255,255,255,0.24)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  textAlign: "center",
-                  fontSize: "10px",
-                  fontWeight: 900,
-                  letterSpacing: "1px",
-                  lineHeight: 1.2,
-                  padding: "10px",
-                }}
-              >
-                CLASSIC ROCK
-                <br />
-                APPROVED
-              </div>
-
-              <div
-                style={{
-                  position: "absolute",
-                  bottom: 0,
-                  width: "100%",
-                  padding: "18px",
-                  background:
-                    "linear-gradient(to top, rgba(0,0,0,0.82), transparent)",
-                }}
-              >
-                <div style={{ fontSize: isMobile ? "22px" : "30px", fontWeight: 900 }}>
-                  {formatDate(entry.day, entry.month, entry.year)}
-                </div>
-                <div style={{ fontWeight: 800, fontSize: isMobile ? "16px" : "18px" }}>
-                  {entry.artist}
-                </div>
-                <div style={{ fontSize: "14px", opacity: 0.92 }}>
-                  {entry.title}
-                </div>
-              </div>
-            </div>
-
-            <div
-              style={{
-                marginTop: "16px",
-                fontSize: "14px",
-                opacity: 0.72,
-              }}
-            >
-              Eintrag {currentIndex + 1} von {entries.length}
             </div>
           </div>
         </div>
