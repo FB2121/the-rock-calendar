@@ -36,6 +36,15 @@ function getInitialIndex(entries, now) {
   return fallbackIndex !== -1 ? fallbackIndex : 0;
 }
 
+function getDateFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const d = params.get("date");
+  if (!d) return null;
+
+  const [day, month] = d.split("-").map(Number);
+  return { day, month };
+}
+
 export default function App() {
   const now = new Date();
   const currentYear = now.getFullYear();
@@ -47,15 +56,6 @@ export default function App() {
 
     return sorted.filter((entry) => !(entry.month === 2 && entry.day === 29));
   }, [currentYear]);
-
-  const getDateFromUrl = () => {
-    const params = new URLSearchParams(window.location.search);
-    const d = params.get("date");
-    if (!d) return null;
-
-    const [day, month] = d.split("-").map(Number);
-    return { day, month };
-  };
 
   const todayIndex = useMemo(() => {
     const urlDate = getDateFromUrl();
@@ -72,12 +72,13 @@ export default function App() {
 
   const [currentIndex, setCurrentIndex] = useState(todayIndex);
 
-  // 🔥 IMPORTANT: force update after mount (fix mobile stale load)
   useEffect(() => {
     setCurrentIndex(todayIndex);
   }, [todayIndex]);
 
   const entry = entries[currentIndex];
+
+  const imageSrc = `${window.location.origin}${entry.cover}`;
 
   const goPrev = () => {
     setCurrentIndex((prev) => (prev === 0 ? entries.length - 1 : prev - 1));
@@ -149,7 +150,12 @@ export default function App() {
           </div>
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1.1fr 0.9fr" }}>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "1.1fr 0.9fr",
+          }}
+        >
           <div style={{ padding: "34px 28px" }}>
             <div
               style={{
@@ -163,32 +169,189 @@ export default function App() {
               HEUTE IN DER ROCKGESCHICHTE
             </div>
 
-            <div style={{ fontSize: "58px", fontWeight: 900, marginBottom: "18px" }}>
+            <div
+              style={{
+                fontSize: "58px",
+                fontWeight: 900,
+                lineHeight: 1,
+                marginBottom: "18px",
+              }}
+            >
               {formatDate(entry.day, entry.month, entry.year)}
             </div>
 
-            <div style={{ fontSize: "14px", opacity: 0.6, marginBottom: "10px" }}>
+            <div
+              style={{
+                fontSize: "14px",
+                letterSpacing: "3px",
+                opacity: 0.6,
+                marginBottom: "10px",
+              }}
+            >
               {entry.type.toUpperCase()}
             </div>
 
-            <h1 style={{ fontSize: "68px", margin: 0 }}>{entry.artist}</h1>
-            <h2 style={{ fontSize: "38px" }}>{entry.title}</h2>
+            <h1
+              style={{
+                fontSize: "68px",
+                lineHeight: 0.95,
+                margin: "0 0 8px 0",
+              }}
+            >
+              {entry.artist}
+            </h1>
 
-            <p style={{ fontSize: "22px", maxWidth: "760px" }}>
+            <h2
+              style={{
+                fontSize: "38px",
+                lineHeight: 1,
+                margin: "0 0 18px 0",
+              }}
+            >
+              {entry.title}
+            </h2>
+
+            <p
+              style={{
+                fontSize: "22px",
+                lineHeight: 1.5,
+                maxWidth: "760px",
+                marginBottom: "24px",
+              }}
+            >
               {entry.text}
             </p>
+
+            <div
+              style={{
+                display: "flex",
+                gap: "10px",
+                flexWrap: "wrap",
+                marginBottom: "28px",
+              }}
+            >
+              {entry.songs.map((song) => (
+                <div
+                  key={song}
+                  style={{
+                    padding: "10px 16px",
+                    borderRadius: "999px",
+                    border: "1px solid rgba(255,255,255,0.18)",
+                    fontSize: "14px",
+                    background: "rgba(255,255,255,0.03)",
+                  }}
+                >
+                  {song}
+                </div>
+              ))}
+            </div>
+
+            <div style={{ display: "flex", gap: "14px", flexWrap: "wrap" }}>
+              <a
+                href={entry.playUrl}
+                target="_blank"
+                rel="noreferrer"
+                style={playButtonStyle}
+              >
+                Play
+              </a>
+
+              <a
+                href={entry.buyUrl}
+                target="_blank"
+                rel="noreferrer"
+                style={buyButtonStyle}
+              >
+                Buy
+              </a>
+            </div>
           </div>
 
-          <div style={{ padding: "28px" }}>
-            <img
-              src={entry.cover}
-              alt={entry.title}
+          <div
+            style={{
+              padding: "28px",
+              borderLeft: "1px solid rgba(255,255,255,0.06)",
+            }}
+          >
+            <div
               style={{
-                width: "100%",
-                aspectRatio: "1/1",
-                objectFit: "cover",
+                position: "relative",
+                borderRadius: "24px",
+                overflow: "hidden",
+                background: "#111",
               }}
-            />
+            >
+              <img
+                src={imageSrc}
+                alt={entry.title}
+                onError={(e) => {
+                  e.currentTarget.src = `${window.location.origin}/placeholder.jpg`;
+                }}
+                style={{
+                  width: "100%",
+                  aspectRatio: "1 / 1",
+                  objectFit: "cover",
+                  display: "block",
+                }}
+              />
+
+              <div
+                style={{
+                  position: "absolute",
+                  top: "18px",
+                  right: "18px",
+                  width: "104px",
+                  height: "104px",
+                  borderRadius: "999px",
+                  background: "rgba(0,0,0,0.78)",
+                  border: "2px solid rgba(255,255,255,0.24)",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  textAlign: "center",
+                  fontSize: "10px",
+                  fontWeight: 900,
+                  letterSpacing: "1px",
+                  lineHeight: 1.2,
+                  padding: "10px",
+                }}
+              >
+                CLASSIC ROCK
+                <br />
+                APPROVED
+              </div>
+
+              <div
+                style={{
+                  position: "absolute",
+                  bottom: 0,
+                  width: "100%",
+                  padding: "18px",
+                  background:
+                    "linear-gradient(to top, rgba(0,0,0,0.82), transparent)",
+                }}
+              >
+                <div style={{ fontSize: "30px", fontWeight: 900 }}>
+                  {formatDate(entry.day, entry.month, entry.year)}
+                </div>
+                <div style={{ fontWeight: 800, fontSize: "18px" }}>
+                  {entry.artist}
+                </div>
+                <div style={{ fontSize: "14px", opacity: 0.92 }}>
+                  {entry.title}
+                </div>
+              </div>
+            </div>
+
+            <div
+              style={{
+                marginTop: "16px",
+                fontSize: "14px",
+                opacity: 0.72,
+              }}
+            >
+              Eintrag {currentIndex + 1} von {entries.length}
+            </div>
           </div>
         </div>
       </div>
@@ -209,8 +372,27 @@ const navButtonStyle = {
 const todayButtonStyle = {
   padding: "10px 16px",
   borderRadius: "12px",
+  border: "1px solid rgba(255,255,255,0.14)",
   background: "#fff",
   color: "#000",
   fontWeight: 800,
   cursor: "pointer",
+};
+
+const playButtonStyle = {
+  padding: "16px 22px",
+  background: "#fff",
+  color: "#000",
+  borderRadius: "14px",
+  fontWeight: 800,
+  textDecoration: "none",
+};
+
+const buyButtonStyle = {
+  padding: "16px 22px",
+  background: "linear-gradient(135deg, #d2a44a 0%, #f2d07a 100%)",
+  color: "#111",
+  borderRadius: "14px",
+  fontWeight: 900,
+  textDecoration: "none",
 };
